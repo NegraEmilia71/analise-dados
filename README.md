@@ -4,7 +4,7 @@ Aqui está o `README.md` completo e detalhado, com instruções claras, descriç
 
 # 📊 Análise de Inteligência em Pesquisa – Diagnóstico Socioambiental
 
-Este projeto foi desenvolvido como parte do **teste técnico para a posição de Analista de Inteligência em Pesquisa Sênior** na **Temple**. O objetivo é consolidar, analisar e extrair insights a partir de diferentes fontes de dados de uma pesquisa socioambiental, gerando um relatório executivo e um dashboard para apresentação ao cliente.
+Este projeto foi desenvolvido como parte do **teste técnico para a posição de Analista de Inteligência em Pesquisa Sênior**. O objetivo é consolidar, analisar e extrair insights a partir de diferentes fontes de dados de uma pesquisa socioambiental, gerando um relatório executivo e um dashboard para apresentação ao cliente.
 
 ---
 
