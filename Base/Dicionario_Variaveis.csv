@@ -1,0 +1,34 @@
+Variável,Tipo,Valores / Escala,Descrição
+ID,Inteiro,1–600,Identificador único do respondente
+Municipio,Texto,8 municípios,Município da entrevista
+Comunidade,Texto,Comunidade,Comunidade de residência
+Area,Categórica,Urbana/Rural,Área de residência
+Sexo,Categórica,F/M,Sexo informado
+Idade,Inteiro,18–80,Idade em anos
+Faixa_Etaria,Categórica,18-29;30-44;45-59;60+,Faixa etária
+Escolaridade,Ordinal,Fundamental; Médio; Superior,Maior escolaridade
+Renda,Numérica,R$/mês,Renda familiar estimada
+Ocupacao,Categórica,Formal;Autônomo;Agricultura;Aposentado;Desempregado,Situação ocupacional
+Tempo_Residencia,Inteiro,Anos,Tempo de residência
+Participou_Oficina,Binária,Sim/Não,Participação em oficinas
+Participa_Associacao,Binária,Sim/Não,Participação em associação comunitária
+Benef_Programa,Binária,Sim/Não,Beneficiário de programa social
+Forma_Coleta,Categórica,Tablet;Totem;QR Code,Modo de resposta
+QV,Likert,1 a 5,Avaliação da qualidade de vida
+Saude,Likert,1 a 5,Avaliação dos serviços de saúde
+Educacao,Likert,1 a 5,Avaliação da educação
+Transporte,Likert,1 a 5,Avaliação do transporte
+Seguranca,Likert,1 a 5,Percepção de segurança
+Meio_Ambiente,Likert,1 a 5,Avaliação ambiental
+Agua,Likert,1 a 5,Avaliação do abastecimento de água
+Geracao_Renda,Likert,1 a 5,Percepção sobre oportunidades econômicas
+Confianca_Empresa,Likert,1 a 5,Confiança na empresa
+Confianca_PoderPublico,Likert,1 a 5,Confiança no poder público
+Pertencimento,Likert,1 a 5,Sentimento de pertencimento
+Conhecimento_Projeto,Likert,1 a 5,Conhecimento sobre o projeto
+Transparencia,Likert,1 a 5,Percepção de transparência
+Participacao_Social,Likert,1 a 5,Percepção sobre oportunidades de participação
+Principal_Preocupacao,Categórica,Água;Emprego;Saúde;Segurança,Principal problema percebido
+Prioridade_Investimento,Categórica,Saúde;Emprego;Educação;Água,Prioridade para investimentos
+Canal_Comunicacao,Categórica,WhatsApp;Rádio;Lideranças;Redes Sociais,Canal preferencial
+Sugestao,Texto livre,Aberto,Sugestão do respondente

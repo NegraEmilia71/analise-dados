@@ -1,0 +1,601 @@
+ID,Municipio,Comunidade,Area,Sexo,Idade,Faixa_Etaria,Escolaridade,Renda,Ocupacao,Tempo_Residencia,Participou_Oficina,Participa_Associacao,Benef_Programa,Forma_Coleta,QV,Saude,Educacao,Transporte,Seguranca,Meio_Ambiente,Agua,Geracao_Renda,Confianca_Empresa,Confianca_PoderPublico,Pertencimento,Conhecimento_Projeto,Transparencia,Participacao_Social,Principal_Preocupacao,Prioridade_Investimento,Canal_Comunicacao,Sugestao
+1,Rio Claro,Centro,Urbana,M,67,60+,Médio,2156,Formal,11,Não,Sim,Não,Tablet,4,4,4,4,3,3,5,2,4,5,3,5,4,3,Segurança,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+2,Rio Claro,Centro,Urbana,M,46,45-59,Médio,2517,Aposentado,54,Sim,Sim,Não,Tablet,4,4,4,4,5,3,5,4,4,2,4,5,4,3,Saúde,Saúde,Redes Sociais,Melhorar transporte rural.
+3,Pedra Branca,Pedreira,Urbana,M,44,30-44,Fundamental,2143,Agricultura,22,Não,Sim,Não,QR Code,5,4,2,4,5,5,5,4,5,2,3,3,5,3,Segurança,Educação,WhatsApp,Melhorar abastecimento de água.
+4,Rio Claro,Centro,Rural,M,32,30-44,Fundamental,2244,Autônomo,35,Não,Não,Não,Totem,5,3,5,2,2,2,4,3,4,5,3,4,4,1,Água,Emprego,Lideranças,Melhorar abastecimento de água.
+5,Boa Esperança,Santa Rita,Rural,M,58,45-59,Fundamental,2354,Desempregado,45,Não,Sim,Sim,QR Code,5,2,2,1,4,4,4,2,4,5,3,3,4,3,Água,Saúde,Lideranças,Aumentar diálogo com comunidades.
+6,Lagoa Nova,Córrego,Urbana,F,58,45-59,Superior,1989,Formal,49,Não,Não,Não,QR Code,5,4,4,4,3,4,5,5,3,4,3,4,3,3,Emprego,Saúde,Lideranças,Melhorar transporte rural.
+7,Santa Aurora,Lagoa,Rural,M,69,60+,Médio,3262,Aposentado,51,Não,Não,Não,Tablet,3,2,4,2,3,4,4,2,3,4,3,4,3,3,Água,Saúde,Lideranças,Ampliar atendimento de saúde.
+8,Boa Esperança,Santa Rita,Rural,M,33,30-44,Superior,2950,Autônomo,6,Sim,Não,Não,QR Code,4,2,2,3,4,3,2,2,3,3,4,3,3,3,Água,Emprego,Redes Sociais,Aumentar diálogo com comunidades.
+9,Rio Claro,Centro,Urbana,F,71,60+,Superior,2918,Desempregado,32,Não,Não,Não,Totem,2,4,2,4,4,5,5,4,4,5,4,2,4,2,Segurança,Saúde,Rádio,Aumentar diálogo com comunidades.
+10,Lagoa Nova,Córrego,Rural,M,30,30-44,Médio,1655,Formal,59,Não,Sim,Não,Totem,2,3,4,3,4,2,3,5,4,2,5,3,4,2,Água,Água,Lideranças,Ampliar atendimento de saúde.
+11,Pedra Branca,Pedreira,Urbana,F,79,60+,Superior,3199,Aposentado,33,Não,Sim,Não,QR Code,4,4,4,4,2,3,5,2,5,2,4,5,5,3,Saúde,Saúde,Redes Sociais,Investir em qualificação profissional.
+12,Pedra Branca,Pedreira,Urbana,M,48,45-59,Superior,2304,Desempregado,58,Não,Sim,Não,Tablet,4,4,5,4,3,2,5,4,5,4,3,3,5,2,Saúde,Saúde,Lideranças,Aumentar diálogo com comunidades.
+13,Rio Claro,Centro,Rural,M,49,45-59,Fundamental,2679,Agricultura,34,Não,Sim,Não,Tablet,2,4,5,1,4,3,4,2,4,5,4,4,4,2,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+14,São Miguel do Norte,São José,Rural,M,45,45-59,Fundamental,2266,Formal,27,Não,Sim,Sim,QR Code,4,2,2,1,2,3,2,5,3,4,3,3,3,2,Água,Saúde,WhatsApp,Melhorar abastecimento de água.
+15,Lagoa Nova,Córrego,Urbana,M,19,18-29,Médio,3096,Desempregado,13,Não,Não,Não,Totem,2,4,5,4,2,4,5,3,2,5,5,4,2,3,Segurança,Emprego,WhatsApp,Investir em qualificação profissional.
+16,Santa Aurora,Lagoa,Urbana,M,73,60+,Fundamental,2845,Formal,33,Não,Não,Não,Tablet,4,4,2,4,3,5,5,3,3,5,3,3,3,2,Emprego,Saúde,Rádio,Ampliar atendimento de saúde.
+17,Vale Verde,Boa Vista,Rural,F,23,18-29,Fundamental,3162,Aposentado,45,Sim,Sim,Sim,Tablet,3,4,2,2,4,5,2,3,4,3,3,4,4,3,Água,Emprego,Redes Sociais,Melhorar abastecimento de água.
+18,Vale Verde,Boa Vista,Urbana,F,18,18-29,Fundamental,2337,Autônomo,19,Sim,Não,Não,Tablet,3,4,2,4,4,5,5,4,3,4,5,3,3,3,Segurança,Emprego,Rádio,Aumentar diálogo com comunidades.
+19,Rio Claro,Centro,Rural,F,40,30-44,Superior,4074,Agricultura,29,Sim,Não,Não,Tablet,3,4,5,2,2,3,2,3,3,4,4,4,3,3,Água,Água,Redes Sociais,Melhorar abastecimento de água.
+20,Vale Verde,Boa Vista,Urbana,F,34,30-44,Superior,2060,Desempregado,7,Não,Não,Não,Totem,2,4,2,4,4,2,5,4,2,4,3,3,2,2,Emprego,Emprego,Redes Sociais,Ampliar atendimento de saúde.
+21,Boa Esperança,Santa Rita,Urbana,M,53,45-59,Médio,2250,Autônomo,1,Não,Não,Sim,Tablet,2,4,2,4,5,5,5,2,3,4,5,4,3,1,Segurança,Saúde,Rádio,Aumentar diálogo com comunidades.
+22,Rio Claro,Centro,Urbana,F,33,30-44,Médio,2343,Agricultura,5,Não,Não,Sim,Tablet,2,4,5,4,4,2,5,3,2,4,4,4,2,3,Saúde,Educação,Lideranças,Ampliar atendimento de saúde.
+23,Vale Verde,Boa Vista,Urbana,F,74,60+,Superior,3131,Autônomo,58,Não,Não,Não,Tablet,5,4,3,4,5,5,5,4,2,2,3,2,2,1,Emprego,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+24,Boa Esperança,Santa Rita,Rural,M,31,30-44,Médio,1303,Autônomo,42,Não,Sim,Não,QR Code,5,2,5,2,2,2,4,2,5,2,3,4,5,1,Água,Água,Rádio,Melhorar transporte rural.
+25,Boa Esperança,Santa Rita,Urbana,F,44,30-44,Superior,3085,Desempregado,46,Não,Não,Não,Tablet,2,4,5,4,3,5,5,2,4,2,4,4,4,2,Emprego,Água,Redes Sociais,Melhorar abastecimento de água.
+26,Boa Esperança,Santa Rita,Rural,F,66,60+,Médio,2287,Agricultura,49,Não,Não,Não,Totem,3,2,2,1,2,3,2,2,3,5,3,2,3,3,Água,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+27,Serra Azul,Barreiro,Rural,F,68,60+,Fundamental,3104,Formal,47,Não,Não,Não,QR Code,2,3,3,2,4,2,4,3,4,3,5,3,4,1,Água,Saúde,Redes Sociais,Investir em qualificação profissional.
+28,Serra Azul,Barreiro,Urbana,M,59,45-59,Superior,1421,Desempregado,41,Sim,Não,Não,Totem,3,4,2,4,5,5,5,5,4,4,3,3,4,3,Saúde,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+29,Santa Aurora,Lagoa,Rural,M,46,45-59,Superior,2844,Desempregado,45,Não,Sim,Não,Totem,3,3,2,1,3,3,3,5,5,3,5,5,5,2,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+30,Lagoa Nova,Córrego,Rural,F,77,60+,Superior,2672,Autônomo,34,Sim,Não,Não,Tablet,5,2,5,2,5,5,4,2,3,3,3,3,3,3,Água,Saúde,Lideranças,Investir em qualificação profissional.
+31,Lagoa Nova,Córrego,Rural,F,65,60+,Médio,2938,Autônomo,13,Não,Não,Não,Tablet,2,2,5,2,5,5,2,5,2,2,4,4,2,1,Água,Saúde,WhatsApp,Melhorar abastecimento de água.
+32,São Miguel do Norte,São José,Urbana,M,72,60+,Superior,2159,Agricultura,3,Não,Não,Sim,Tablet,4,4,4,4,4,3,5,4,2,5,4,2,2,1,Saúde,Saúde,WhatsApp,Melhorar transporte rural.
+33,Pedra Branca,Pedreira,Rural,M,31,30-44,Médio,2678,Agricultura,28,Sim,Não,Não,QR Code,4,2,2,2,5,5,2,2,4,4,4,4,4,3,Água,Educação,Rádio,Investir em qualificação profissional.
+34,Rio Claro,Centro,Urbana,M,44,30-44,Superior,2962,Formal,38,Não,Não,Não,Totem,2,4,4,4,5,3,5,3,3,4,5,2,3,3,Emprego,Água,Rádio,Investir em qualificação profissional.
+35,Boa Esperança,Santa Rita,Urbana,F,28,18-29,Médio,1703,Autônomo,40,Não,Não,Não,Totem,2,4,3,4,3,4,5,2,3,3,4,2,3,1,Segurança,Emprego,WhatsApp,Investir em qualificação profissional.
+36,Rio Claro,Centro,Urbana,F,23,18-29,Superior,4147,Formal,27,Sim,Não,Sim,Tablet,3,4,4,4,3,5,5,3,3,4,5,5,3,3,Segurança,Emprego,Redes Sociais,Ampliar atendimento de saúde.
+37,Pedra Branca,Pedreira,Urbana,M,45,45-59,Superior,2188,Autônomo,44,Não,Sim,Não,QR Code,3,4,3,4,3,3,5,5,3,2,3,4,3,2,Segurança,Saúde,Rádio,Ampliar atendimento de saúde.
+38,Pedra Branca,Pedreira,Rural,M,58,45-59,Superior,2349,Agricultura,18,Não,Não,Não,Tablet,3,3,3,3,3,2,4,2,2,5,5,3,2,2,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+39,Vale Verde,Boa Vista,Urbana,M,50,45-59,Médio,3246,Autônomo,29,Sim,Não,Sim,QR Code,5,4,4,4,2,5,5,5,5,4,4,3,5,3,Emprego,Saúde,WhatsApp,Investir em qualificação profissional.
+40,Lagoa Nova,Córrego,Rural,M,62,60+,Médio,1437,Autônomo,12,Sim,Não,Sim,Tablet,3,4,4,2,3,5,4,3,4,3,5,4,4,3,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+41,São Miguel do Norte,São José,Urbana,F,54,45-59,Superior,3589,Autônomo,31,Não,Não,Não,Tablet,3,4,3,4,4,5,5,4,4,2,5,3,4,2,Segurança,Saúde,Lideranças,Aumentar diálogo com comunidades.
+42,Rio Claro,Centro,Urbana,M,34,30-44,Médio,2652,Desempregado,31,Sim,Sim,Não,Tablet,5,4,5,4,4,4,5,3,4,2,3,5,4,3,Emprego,Emprego,Redes Sociais,Melhorar abastecimento de água.
+43,Santa Aurora,Lagoa,Rural,M,28,18-29,Médio,3371,Autônomo,7,Não,Sim,Não,QR Code,5,2,2,1,4,3,4,3,3,3,3,3,3,3,Água,Emprego,WhatsApp,Ampliar atendimento de saúde.
+44,Pedra Branca,Pedreira,Urbana,F,49,45-59,Fundamental,3006,Formal,43,Sim,Não,Não,QR Code,3,4,4,4,4,5,5,4,5,3,5,5,5,3,Emprego,Saúde,Redes Sociais,Melhorar abastecimento de água.
+45,Vale Verde,Boa Vista,Urbana,F,22,18-29,Médio,1835,Desempregado,49,Não,Não,Não,QR Code,2,4,5,4,4,2,5,3,4,3,4,3,4,3,Emprego,Emprego,Redes Sociais,Investir em qualificação profissional.
+46,Pedra Branca,Pedreira,Rural,F,37,30-44,Médio,2442,Aposentado,34,Sim,Não,Não,Tablet,3,3,3,2,5,2,4,4,5,5,5,5,5,3,Água,Educação,Redes Sociais,Investir em qualificação profissional.
+47,Serra Azul,Barreiro,Urbana,M,31,30-44,Médio,2473,Autônomo,59,Não,Sim,Não,Tablet,2,4,3,4,3,3,5,2,3,5,4,4,3,2,Segurança,Emprego,Rádio,Aumentar diálogo com comunidades.
+48,São Miguel do Norte,São José,Urbana,M,76,60+,Fundamental,2957,Agricultura,15,Sim,Não,Não,Totem,2,4,3,4,5,4,5,5,5,2,3,3,5,3,Segurança,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+49,Rio Claro,Centro,Urbana,F,28,18-29,Médio,2779,Formal,3,Não,Sim,Não,Tablet,3,4,5,4,4,3,5,3,4,5,5,3,4,2,Emprego,Emprego,Rádio,Ampliar atendimento de saúde.
+50,São Miguel do Norte,São José,Urbana,F,22,18-29,Superior,1696,Autônomo,16,Não,Não,Não,Tablet,3,4,3,4,2,4,5,4,2,2,3,3,2,1,Segurança,Emprego,WhatsApp,Melhorar abastecimento de água.
+51,Lagoa Nova,Córrego,Rural,F,80,60+,Superior,1457,Desempregado,42,Não,Sim,Não,QR Code,5,4,3,3,4,4,2,5,5,3,5,4,5,2,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+52,Santa Aurora,Lagoa,Rural,F,21,18-29,Superior,2206,Autônomo,23,Não,Sim,Não,QR Code,3,4,3,3,3,4,4,4,5,2,4,5,5,1,Água,Emprego,WhatsApp,Melhorar abastecimento de água.
+53,Santa Aurora,Lagoa,Urbana,M,60,60+,Superior,1917,Desempregado,58,Não,Não,Não,Totem,5,4,4,4,3,3,5,3,3,5,4,4,3,1,Emprego,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+54,Serra Azul,Barreiro,Urbana,F,33,30-44,Superior,3585,Desempregado,7,Não,Não,Não,Totem,3,4,3,4,5,5,5,3,4,5,5,3,4,1,Segurança,Água,Lideranças,Investir em qualificação profissional.
+55,Serra Azul,Barreiro,Urbana,M,57,45-59,Fundamental,1960,Autônomo,59,Não,Não,Não,QR Code,2,4,5,4,4,5,5,2,3,4,3,4,3,2,Saúde,Saúde,Redes Sociais,Melhorar transporte rural.
+56,Serra Azul,Barreiro,Urbana,F,31,30-44,Médio,2631,Agricultura,53,Sim,Não,Não,Tablet,5,4,5,4,3,2,5,4,3,2,5,4,3,3,Saúde,Emprego,Rádio,Aumentar diálogo com comunidades.
+57,São Miguel do Norte,São José,Urbana,M,36,30-44,Médio,2366,Autônomo,57,Sim,Não,Não,Totem,2,4,3,4,5,3,5,2,4,3,3,3,4,3,Emprego,Emprego,Rádio,Investir em qualificação profissional.
+58,Rio Claro,Centro,Urbana,M,23,18-29,Médio,4157,Formal,2,Sim,Não,Não,QR Code,4,4,3,4,5,4,5,2,5,3,3,4,5,3,Emprego,Emprego,Rádio,Melhorar abastecimento de água.
+59,Vale Verde,Boa Vista,Urbana,F,43,30-44,Fundamental,3600,Desempregado,31,Não,Não,Não,QR Code,4,4,2,4,3,4,5,2,3,3,4,4,3,2,Emprego,Educação,Redes Sociais,Ampliar atendimento de saúde.
+60,Pedra Branca,Pedreira,Urbana,F,31,30-44,Fundamental,2942,Autônomo,34,Não,Sim,Não,QR Code,3,4,3,4,4,5,5,4,4,3,5,3,4,1,Emprego,Água,WhatsApp,Melhorar abastecimento de água.
+61,Boa Esperança,Santa Rita,Urbana,M,23,18-29,Médio,2324,Autônomo,48,Sim,Não,Não,Tablet,2,4,5,4,2,4,5,2,5,3,5,4,5,3,Saúde,Emprego,WhatsApp,Ampliar atendimento de saúde.
+62,São Miguel do Norte,São José,Rural,F,56,45-59,Superior,2899,Aposentado,55,Não,Não,Não,QR Code,2,3,4,3,4,4,4,5,2,2,5,3,2,1,Água,Saúde,WhatsApp,Melhorar abastecimento de água.
+63,Santa Aurora,Lagoa,Rural,F,76,60+,Médio,3481,Agricultura,57,Sim,Sim,Não,Totem,5,4,4,2,3,3,4,3,5,5,4,4,5,3,Água,Saúde,Rádio,Ampliar atendimento de saúde.
+64,Vale Verde,Boa Vista,Rural,M,44,30-44,Superior,3528,Agricultura,24,Não,Sim,Não,Totem,4,2,2,1,2,3,4,4,4,4,3,3,4,3,Água,Água,Lideranças,Investir em qualificação profissional.
+65,Pedra Branca,Pedreira,Urbana,M,52,45-59,Superior,2725,Aposentado,45,Não,Não,Não,Totem,5,4,5,4,2,2,5,5,4,3,5,3,4,2,Segurança,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+66,Boa Esperança,Santa Rita,Urbana,F,25,18-29,Médio,2379,Formal,28,Sim,Não,Sim,Tablet,5,4,2,4,5,3,5,2,5,3,3,3,5,3,Segurança,Emprego,Rádio,Melhorar transporte rural.
+67,Vale Verde,Boa Vista,Urbana,F,59,45-59,Superior,2045,Autônomo,31,Não,Não,Não,Totem,4,4,3,4,4,2,5,3,2,5,3,2,2,3,Saúde,Saúde,WhatsApp,Melhorar abastecimento de água.
+68,Santa Aurora,Lagoa,Rural,M,52,45-59,Médio,2836,Formal,4,Sim,Não,Não,Tablet,2,4,3,3,2,5,2,3,4,3,5,5,4,3,Água,Saúde,WhatsApp,Melhorar abastecimento de água.
+69,Rio Claro,Centro,Urbana,F,67,60+,Fundamental,2377,Desempregado,59,Não,Não,Não,Totem,4,4,3,4,5,4,5,4,2,3,4,3,2,1,Saúde,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+70,Santa Aurora,Lagoa,Urbana,M,35,30-44,Médio,1711,Aposentado,47,Não,Não,Não,Totem,4,4,4,4,4,5,5,3,4,5,4,3,4,3,Emprego,Emprego,Redes Sociais,Ampliar atendimento de saúde.
+71,Boa Esperança,Santa Rita,Urbana,F,30,30-44,Médio,2298,Autônomo,29,Não,Não,Não,Totem,2,4,2,4,5,2,5,2,4,4,3,4,4,2,Segurança,Educação,Rádio,Melhorar abastecimento de água.
+72,Vale Verde,Boa Vista,Rural,F,58,45-59,Superior,2023,Desempregado,25,Não,Não,Sim,Totem,4,2,3,2,2,4,4,4,3,3,4,4,3,2,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+73,Santa Aurora,Lagoa,Urbana,F,47,45-59,Médio,1926,Aposentado,8,Não,Sim,Não,Totem,2,4,2,4,3,3,5,4,4,4,5,5,4,2,Segurança,Saúde,Lideranças,Melhorar transporte rural.
+74,Lagoa Nova,Córrego,Urbana,M,47,45-59,Médio,2614,Autônomo,22,Sim,Sim,Não,Totem,5,4,3,4,3,3,5,4,4,4,3,4,4,3,Segurança,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+75,Boa Esperança,Santa Rita,Rural,M,53,45-59,Superior,1942,Formal,12,Não,Não,Não,Totem,2,4,3,3,2,2,3,2,2,3,3,2,2,1,Água,Saúde,Redes Sociais,Investir em qualificação profissional.
+76,Santa Aurora,Lagoa,Rural,F,65,60+,Superior,3516,Autônomo,32,Sim,Não,Sim,Tablet,2,2,2,3,5,4,2,3,3,2,5,4,3,3,Água,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+77,Lagoa Nova,Córrego,Urbana,M,20,18-29,Médio,2539,Formal,57,Sim,Sim,Não,Totem,4,4,5,4,2,4,5,4,5,3,4,5,5,3,Segurança,Emprego,Lideranças,Melhorar transporte rural.
+78,Lagoa Nova,Córrego,Rural,F,19,18-29,Médio,3218,Aposentado,38,Não,Sim,Sim,QR Code,4,3,5,3,4,4,2,4,5,4,5,4,5,2,Água,Emprego,Lideranças,Melhorar transporte rural.
+79,Boa Esperança,Santa Rita,Rural,M,60,60+,Superior,1020,Agricultura,55,Não,Sim,Não,Tablet,4,2,4,3,2,4,4,2,4,3,5,3,4,2,Água,Saúde,Lideranças,Ampliar atendimento de saúde.
+80,Pedra Branca,Pedreira,Urbana,M,22,18-29,Superior,3075,Formal,34,Não,Não,Sim,QR Code,4,4,3,4,3,3,5,4,4,5,3,2,4,3,Emprego,Emprego,Lideranças,Ampliar atendimento de saúde.
+81,Rio Claro,Centro,Urbana,F,38,30-44,Superior,2881,Agricultura,39,Não,Sim,Não,QR Code,5,4,5,4,3,4,5,3,5,2,4,4,5,3,Saúde,Emprego,Lideranças,Melhorar abastecimento de água.
+82,Boa Esperança,Santa Rita,Urbana,F,23,18-29,Médio,1491,Formal,42,Sim,Não,Não,QR Code,3,4,5,4,5,2,5,2,3,2,3,5,3,3,Saúde,Emprego,Lideranças,Melhorar abastecimento de água.
+83,São Miguel do Norte,São José,Urbana,M,30,30-44,Médio,3423,Formal,48,Não,Não,Não,Totem,5,4,4,4,3,3,5,5,2,5,5,3,2,2,Saúde,Água,Lideranças,Ampliar atendimento de saúde.
+84,Pedra Branca,Pedreira,Urbana,M,50,45-59,Fundamental,2766,Formal,2,Sim,Não,Não,QR Code,2,4,4,4,3,3,5,2,4,3,5,3,4,3,Segurança,Saúde,WhatsApp,Investir em qualificação profissional.
+85,Pedra Branca,Pedreira,Rural,F,47,45-59,Superior,2915,Agricultura,48,Sim,Sim,Sim,Tablet,2,2,4,1,2,3,3,4,4,2,4,4,4,3,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+86,Santa Aurora,Lagoa,Urbana,F,56,45-59,Fundamental,3185,Desempregado,15,Sim,Não,Não,Totem,2,4,3,4,2,5,5,5,3,5,3,3,3,3,Saúde,Saúde,Redes Sociais,Melhorar abastecimento de água.
+87,Lagoa Nova,Córrego,Urbana,M,39,30-44,Médio,2460,Desempregado,18,Não,Não,Sim,Totem,5,4,3,4,3,2,5,5,3,2,3,3,3,3,Emprego,Educação,Rádio,Investir em qualificação profissional.
+88,Pedra Branca,Pedreira,Urbana,F,32,30-44,Médio,3237,Desempregado,54,Não,Sim,Não,Tablet,3,4,3,4,2,3,5,3,4,3,5,4,4,2,Segurança,Água,WhatsApp,Aumentar diálogo com comunidades.
+89,Rio Claro,Centro,Urbana,F,52,45-59,Superior,2570,Agricultura,23,Não,Não,Não,Tablet,4,4,2,4,5,4,5,4,4,4,3,4,4,2,Saúde,Saúde,WhatsApp,Melhorar transporte rural.
+90,Boa Esperança,Santa Rita,Rural,F,62,60+,Superior,2878,Autônomo,37,Sim,Sim,Sim,Tablet,5,4,2,3,2,3,4,2,5,5,4,5,5,3,Água,Saúde,Lideranças,Ampliar atendimento de saúde.
+91,Vale Verde,Boa Vista,Urbana,M,60,60+,Superior,2728,Autônomo,16,Sim,Não,Não,Totem,2,4,2,4,4,2,5,2,4,5,4,5,4,3,Emprego,Saúde,WhatsApp,Ampliar atendimento de saúde.
+92,Santa Aurora,Lagoa,Rural,F,60,60+,Médio,3039,Desempregado,19,Não,Não,Não,Tablet,3,4,4,1,2,5,3,3,4,4,3,3,4,1,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+93,Serra Azul,Barreiro,Rural,M,69,60+,Superior,2970,Formal,28,Sim,Não,Não,Tablet,5,4,2,1,3,5,4,3,5,2,4,5,5,3,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+94,Vale Verde,Boa Vista,Rural,F,34,30-44,Médio,2462,Formal,2,Não,Não,Não,QR Code,4,2,4,3,5,3,2,3,3,2,5,2,3,1,Água,Água,Rádio,Aumentar diálogo com comunidades.
+95,Vale Verde,Boa Vista,Urbana,F,74,60+,Superior,2745,Desempregado,42,Não,Sim,Não,Totem,2,4,2,4,3,5,5,2,3,4,3,3,3,1,Segurança,Saúde,Lideranças,Investir em qualificação profissional.
+96,Serra Azul,Barreiro,Rural,M,44,30-44,Superior,3374,Desempregado,55,Não,Não,Sim,QR Code,2,3,5,3,3,3,4,3,3,3,3,2,3,3,Água,Emprego,Rádio,Aumentar diálogo com comunidades.
+97,Boa Esperança,Santa Rita,Urbana,F,25,18-29,Superior,2078,Agricultura,60,Não,Não,Sim,Totem,3,4,5,4,2,2,5,2,3,5,3,2,3,3,Emprego,Emprego,Rádio,Melhorar transporte rural.
+98,São Miguel do Norte,São José,Urbana,F,69,60+,Superior,1642,Agricultura,5,Não,Não,Sim,Tablet,3,4,3,4,5,3,5,5,2,3,3,2,2,1,Saúde,Saúde,Lideranças,Investir em qualificação profissional.
+99,São Miguel do Norte,São José,Urbana,F,37,30-44,Fundamental,1791,Aposentado,41,Não,Não,Sim,Tablet,2,4,5,4,3,5,5,3,2,5,5,2,2,3,Emprego,Emprego,WhatsApp,Ampliar atendimento de saúde.
+100,Rio Claro,Centro,Urbana,F,40,30-44,Superior,2751,Autônomo,29,Não,Não,Sim,Totem,4,4,4,4,2,2,5,3,3,5,4,2,3,2,Saúde,Água,Rádio,Aumentar diálogo com comunidades.
+101,Lagoa Nova,Córrego,Rural,F,77,60+,Superior,2629,Formal,3,Sim,Não,Não,QR Code,2,3,2,3,5,4,3,2,5,3,5,4,5,3,Água,Saúde,WhatsApp,Investir em qualificação profissional.
+102,Lagoa Nova,Córrego,Rural,M,21,18-29,Fundamental,2608,Formal,10,Sim,Não,Não,Totem,2,2,3,3,4,4,3,2,4,5,4,4,4,3,Água,Emprego,Redes Sociais,Ampliar atendimento de saúde.
+103,Boa Esperança,Santa Rita,Rural,M,43,30-44,Médio,3001,Desempregado,21,Não,Sim,Não,Totem,4,2,5,1,3,3,4,2,4,3,3,4,4,1,Água,Educação,WhatsApp,Melhorar abastecimento de água.
+104,Serra Azul,Barreiro,Urbana,M,67,60+,Fundamental,2496,Desempregado,16,Não,Não,Não,Tablet,3,4,3,4,5,2,5,2,3,3,4,4,3,3,Segurança,Saúde,Redes Sociais,Melhorar abastecimento de água.
+105,Santa Aurora,Lagoa,Urbana,M,33,30-44,Médio,2925,Agricultura,33,Não,Não,Não,QR Code,2,4,2,4,4,3,5,5,3,2,5,2,3,3,Segurança,Água,Lideranças,Ampliar atendimento de saúde.
+106,Boa Esperança,Santa Rita,Urbana,M,26,18-29,Fundamental,1324,Agricultura,30,Sim,Não,Não,Totem,5,4,2,4,2,3,5,2,3,2,3,4,3,3,Saúde,Emprego,Rádio,Melhorar abastecimento de água.
+107,Santa Aurora,Lagoa,Urbana,F,32,30-44,Fundamental,2717,Desempregado,11,Sim,Não,Sim,Tablet,2,4,5,4,2,3,5,2,3,4,3,4,3,3,Saúde,Emprego,WhatsApp,Investir em qualificação profissional.
+108,Boa Esperança,Santa Rita,Rural,M,31,30-44,Fundamental,2107,Desempregado,14,Sim,Não,Não,Totem,5,4,2,1,5,4,2,2,5,2,5,5,5,3,Água,Água,WhatsApp,Melhorar transporte rural.
+109,Lagoa Nova,Córrego,Urbana,F,76,60+,Fundamental,1880,Aposentado,12,Não,Não,Sim,QR Code,2,4,2,4,2,5,5,2,4,4,4,3,4,1,Saúde,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+110,Pedra Branca,Pedreira,Urbana,M,59,45-59,Fundamental,2199,Desempregado,21,Não,Não,Sim,Totem,3,4,4,4,4,4,5,3,4,5,5,2,4,2,Saúde,Saúde,Rádio,Ampliar atendimento de saúde.
+111,Santa Aurora,Lagoa,Urbana,F,64,60+,Superior,1800,Aposentado,4,Sim,Não,Não,Totem,2,4,3,4,2,2,5,5,4,2,3,3,4,3,Saúde,Saúde,Rádio,Melhorar abastecimento de água.
+112,São Miguel do Norte,São José,Rural,M,39,30-44,Superior,2312,Desempregado,56,Não,Não,Não,QR Code,5,3,2,3,3,5,4,3,3,2,4,3,3,2,Água,Educação,WhatsApp,Melhorar transporte rural.
+113,Boa Esperança,Santa Rita,Rural,M,55,45-59,Médio,1735,Autônomo,16,Não,Não,Não,Totem,4,4,2,1,5,3,2,2,4,5,5,2,4,1,Água,Saúde,Redes Sociais,Investir em qualificação profissional.
+114,Serra Azul,Barreiro,Urbana,M,74,60+,Superior,2176,Formal,13,Sim,Não,Não,QR Code,5,4,4,4,5,2,5,4,4,5,5,5,4,3,Saúde,Saúde,Rádio,Melhorar abastecimento de água.
+115,Pedra Branca,Pedreira,Rural,F,27,18-29,Fundamental,3319,Desempregado,5,Sim,Sim,Não,Tablet,4,3,3,2,4,5,3,4,5,3,5,4,5,3,Água,Emprego,WhatsApp,Melhorar abastecimento de água.
+116,Boa Esperança,Santa Rita,Urbana,M,75,60+,Médio,2594,Formal,12,Não,Sim,Sim,QR Code,4,4,3,4,3,2,5,2,4,4,5,5,4,2,Saúde,Saúde,Lideranças,Investir em qualificação profissional.
+117,Vale Verde,Boa Vista,Rural,F,20,18-29,Fundamental,2226,Desempregado,7,Não,Não,Sim,Tablet,3,2,5,2,2,5,4,3,3,5,3,2,3,3,Água,Emprego,Redes Sociais,Melhorar abastecimento de água.
+118,Rio Claro,Centro,Rural,F,68,60+,Médio,3210,Agricultura,5,Não,Não,Sim,Tablet,5,3,3,3,5,4,3,3,4,4,4,4,4,2,Água,Saúde,Lideranças,Investir em qualificação profissional.
+119,Boa Esperança,Santa Rita,Urbana,M,47,45-59,Médio,1203,Autônomo,44,Sim,Não,Não,QR Code,4,4,2,4,3,3,5,2,3,3,5,4,3,3,Emprego,Saúde,WhatsApp,Ampliar atendimento de saúde.
+120,São Miguel do Norte,São José,Rural,F,59,45-59,Médio,3147,Aposentado,7,Sim,Sim,Não,Totem,2,4,5,1,4,5,2,4,5,4,5,5,5,3,Água,Saúde,Redes Sociais,Investir em qualificação profissional.
+121,Pedra Branca,Pedreira,Rural,F,18,18-29,Fundamental,1879,Agricultura,37,Não,Não,Não,QR Code,4,2,5,1,2,4,3,5,4,5,3,4,4,3,Água,Emprego,Redes Sociais,Melhorar abastecimento de água.
+122,Serra Azul,Barreiro,Rural,F,46,45-59,Médio,3409,Formal,3,Não,Sim,Sim,Totem,4,2,4,1,5,4,3,3,5,4,3,3,5,2,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+123,Serra Azul,Barreiro,Urbana,M,68,60+,Fundamental,2977,Autônomo,47,Sim,Não,Não,Totem,5,4,3,4,5,2,5,4,5,5,4,5,5,3,Saúde,Saúde,WhatsApp,Melhorar transporte rural.
+124,São Miguel do Norte,São José,Urbana,F,49,45-59,Fundamental,2566,Formal,14,Não,Não,Não,Totem,2,4,2,4,5,4,5,3,2,4,4,2,2,3,Saúde,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+125,Serra Azul,Barreiro,Rural,F,72,60+,Fundamental,3473,Desempregado,11,Não,Não,Não,QR Code,2,2,4,3,2,4,2,3,2,2,3,3,2,2,Água,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+126,Boa Esperança,Santa Rita,Urbana,M,31,30-44,Superior,1318,Formal,8,Não,Não,Não,Tablet,2,4,4,4,4,3,5,2,3,3,3,2,3,1,Saúde,Água,Lideranças,Ampliar atendimento de saúde.
+127,Santa Aurora,Lagoa,Urbana,F,61,60+,Superior,1816,Formal,11,Sim,Não,Não,Totem,2,4,5,4,3,5,5,2,3,2,5,5,3,3,Segurança,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+128,Vale Verde,Boa Vista,Urbana,M,40,30-44,Médio,2474,Formal,42,Não,Sim,Não,QR Code,5,4,2,4,2,4,5,4,3,4,4,5,3,2,Emprego,Água,Redes Sociais,Investir em qualificação profissional.
+129,Vale Verde,Boa Vista,Rural,M,72,60+,Médio,2374,Formal,17,Não,Não,Sim,Tablet,4,2,4,3,5,3,2,2,3,5,3,2,3,2,Água,Saúde,Lideranças,Melhorar abastecimento de água.
+130,São Miguel do Norte,São José,Urbana,M,47,45-59,Superior,2935,Desempregado,37,Não,Sim,Não,Tablet,4,4,2,4,4,3,5,5,5,3,5,3,5,1,Saúde,Saúde,Rádio,Melhorar abastecimento de água.
+131,Santa Aurora,Lagoa,Urbana,M,56,45-59,Superior,1881,Desempregado,44,Sim,Não,Não,Totem,4,4,2,4,2,2,5,4,5,3,4,4,5,3,Segurança,Saúde,Redes Sociais,Melhorar transporte rural.
+132,Pedra Branca,Pedreira,Urbana,M,62,60+,Superior,1512,Agricultura,34,Não,Não,Não,Totem,5,4,5,4,2,4,5,4,3,5,3,4,3,3,Segurança,Saúde,Rádio,Ampliar atendimento de saúde.
+133,Boa Esperança,Santa Rita,Urbana,M,76,60+,Fundamental,2570,Aposentado,12,Não,Não,Não,Totem,5,4,5,4,2,5,5,2,4,2,4,2,4,3,Saúde,Saúde,WhatsApp,Investir em qualificação profissional.
+134,Pedra Branca,Pedreira,Urbana,M,68,60+,Médio,1917,Aposentado,29,Não,Não,Não,QR Code,5,4,5,4,5,2,5,2,2,4,5,2,2,3,Emprego,Saúde,Rádio,Investir em qualificação profissional.
+135,Serra Azul,Barreiro,Urbana,M,58,45-59,Fundamental,1452,Formal,20,Não,Não,Não,Totem,5,4,5,4,2,3,5,4,4,2,4,4,4,3,Saúde,Saúde,Lideranças,Melhorar transporte rural.
+136,São Miguel do Norte,São José,Rural,M,71,60+,Fundamental,2559,Autônomo,9,Sim,Não,Não,Tablet,5,2,4,3,3,4,2,3,3,2,3,3,3,3,Água,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+137,Serra Azul,Barreiro,Urbana,M,68,60+,Superior,1736,Agricultura,57,Sim,Não,Não,Totem,2,4,2,4,3,2,5,2,5,3,5,3,5,3,Segurança,Saúde,Redes Sociais,Melhorar abastecimento de água.
+138,Serra Azul,Barreiro,Urbana,F,34,30-44,Fundamental,1545,Desempregado,60,Sim,Sim,Sim,Tablet,4,4,3,4,3,4,5,2,4,5,5,5,4,3,Emprego,Educação,Lideranças,Melhorar transporte rural.
+139,São Miguel do Norte,São José,Rural,F,31,30-44,Superior,1988,Autônomo,13,Sim,Sim,Não,Tablet,2,3,5,3,5,3,3,5,4,5,5,5,4,3,Água,Educação,Rádio,Aumentar diálogo com comunidades.
+140,Pedra Branca,Pedreira,Urbana,M,77,60+,Fundamental,2879,Formal,56,Não,Sim,Sim,Totem,4,4,3,4,3,5,5,5,3,3,5,3,3,3,Segurança,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+141,Pedra Branca,Pedreira,Urbana,F,24,18-29,Médio,2459,Agricultura,20,Sim,Não,Não,Tablet,2,4,3,4,4,5,5,4,5,4,3,3,5,3,Emprego,Emprego,Redes Sociais,Aumentar diálogo com comunidades.
+142,Lagoa Nova,Córrego,Urbana,F,70,60+,Fundamental,3469,Formal,20,Sim,Não,Sim,Totem,5,4,2,4,4,4,5,4,5,2,3,3,5,3,Emprego,Saúde,Redes Sociais,Investir em qualificação profissional.
+143,Vale Verde,Boa Vista,Urbana,M,53,45-59,Superior,3330,Aposentado,60,Não,Não,Não,Totem,4,4,4,4,4,3,5,5,3,3,3,3,3,1,Saúde,Saúde,Rádio,Aumentar diálogo com comunidades.
+144,Serra Azul,Barreiro,Urbana,M,41,30-44,Superior,3147,Desempregado,19,Não,Sim,Não,Totem,4,4,5,4,2,4,5,5,5,3,3,3,5,2,Emprego,Educação,Rádio,Melhorar transporte rural.
+145,Lagoa Nova,Córrego,Urbana,F,78,60+,Superior,1900,Desempregado,7,Não,Não,Sim,Tablet,2,4,2,4,4,5,5,2,2,2,5,4,2,1,Emprego,Saúde,Rádio,Melhorar abastecimento de água.
+146,Vale Verde,Boa Vista,Urbana,M,68,60+,Médio,1588,Agricultura,58,Sim,Não,Não,QR Code,2,4,4,4,4,4,5,4,5,5,5,3,5,3,Emprego,Saúde,Rádio,Melhorar abastecimento de água.
+147,Pedra Branca,Pedreira,Rural,M,58,45-59,Fundamental,1510,Autônomo,47,Não,Não,Não,QR Code,2,4,4,2,2,5,4,2,4,5,3,3,4,3,Água,Saúde,Rádio,Investir em qualificação profissional.
+148,Boa Esperança,Santa Rita,Urbana,M,29,18-29,Superior,2531,Desempregado,29,Não,Não,Sim,QR Code,5,4,2,4,4,3,5,2,4,2,5,3,4,3,Saúde,Emprego,WhatsApp,Investir em qualificação profissional.
+149,São Miguel do Norte,São José,Rural,M,72,60+,Médio,2384,Aposentado,3,Sim,Não,Sim,Tablet,4,4,4,2,5,3,3,3,4,4,3,4,4,3,Água,Saúde,WhatsApp,Melhorar transporte rural.
+150,Rio Claro,Centro,Urbana,M,39,30-44,Médio,2209,Agricultura,52,Sim,Não,Não,Totem,5,4,3,4,4,2,5,3,3,2,3,5,3,3,Emprego,Emprego,Redes Sociais,Investir em qualificação profissional.
+151,Rio Claro,Centro,Urbana,M,44,30-44,Fundamental,2596,Agricultura,27,Não,Não,Não,Tablet,5,4,2,4,5,4,5,2,4,5,5,2,4,1,Emprego,Emprego,Lideranças,Investir em qualificação profissional.
+152,Rio Claro,Centro,Urbana,F,61,60+,Superior,3839,Agricultura,24,Não,Sim,Não,Totem,5,4,3,4,3,5,5,4,3,3,4,4,3,1,Segurança,Saúde,Lideranças,Ampliar atendimento de saúde.
+153,Boa Esperança,Santa Rita,Urbana,M,78,60+,Fundamental,3073,Aposentado,47,Não,Sim,Não,Tablet,3,4,3,4,4,2,5,2,4,4,3,3,4,2,Saúde,Saúde,WhatsApp,Melhorar abastecimento de água.
+154,Santa Aurora,Lagoa,Urbana,M,38,30-44,Fundamental,2658,Aposentado,18,Sim,Não,Sim,Totem,4,4,2,4,3,2,5,3,3,2,4,3,3,3,Saúde,Emprego,Redes Sociais,Melhorar abastecimento de água.
+155,Lagoa Nova,Córrego,Urbana,M,68,60+,Fundamental,1491,Autônomo,44,Sim,Não,Não,Tablet,3,4,2,4,5,4,5,4,3,3,5,5,3,3,Emprego,Saúde,Rádio,Melhorar abastecimento de água.
+156,Pedra Branca,Pedreira,Urbana,F,18,18-29,Superior,1976,Agricultura,35,Não,Não,Não,Tablet,3,4,2,4,5,2,5,5,2,4,5,4,2,3,Saúde,Emprego,Redes Sociais,Ampliar atendimento de saúde.
+157,Pedra Branca,Pedreira,Urbana,M,32,30-44,Médio,1852,Desempregado,50,Não,Sim,Não,Tablet,5,4,2,4,3,3,5,2,3,2,5,3,3,2,Saúde,Educação,Redes Sociais,Aumentar diálogo com comunidades.
+158,Lagoa Nova,Córrego,Urbana,F,55,45-59,Médio,2001,Desempregado,19,Não,Não,Não,Totem,4,4,5,4,3,5,5,2,4,2,4,2,4,3,Segurança,Saúde,WhatsApp,Investir em qualificação profissional.
+159,Boa Esperança,Santa Rita,Urbana,F,23,18-29,Superior,1540,Formal,5,Não,Não,Não,QR Code,4,4,2,4,5,3,5,2,4,5,3,2,4,1,Emprego,Emprego,WhatsApp,Melhorar abastecimento de água.
+160,Rio Claro,Centro,Urbana,F,25,18-29,Superior,4136,Aposentado,19,Não,Não,Não,QR Code,4,4,3,4,5,4,5,3,2,3,5,2,2,2,Emprego,Emprego,Lideranças,Investir em qualificação profissional.
+161,Serra Azul,Barreiro,Urbana,M,69,60+,Superior,2863,Aposentado,2,Não,Sim,Não,Totem,4,4,3,4,3,2,5,5,3,4,3,4,3,3,Emprego,Saúde,Lideranças,Investir em qualificação profissional.
+162,Lagoa Nova,Córrego,Rural,M,76,60+,Médio,2108,Aposentado,19,Sim,Não,Não,Tablet,5,4,4,1,5,3,4,2,4,2,5,5,4,3,Água,Saúde,Lideranças,Melhorar abastecimento de água.
+163,Vale Verde,Boa Vista,Rural,F,52,45-59,Médio,1430,Agricultura,43,Sim,Não,Não,QR Code,4,4,5,3,2,5,2,3,4,5,3,3,4,3,Água,Saúde,Lideranças,Ampliar atendimento de saúde.
+164,Vale Verde,Boa Vista,Urbana,M,33,30-44,Médio,2573,Agricultura,49,Não,Não,Não,QR Code,4,4,5,4,3,5,5,5,2,4,4,4,2,3,Saúde,Educação,Redes Sociais,Investir em qualificação profissional.
+165,Pedra Branca,Pedreira,Rural,M,55,45-59,Fundamental,1583,Aposentado,35,Sim,Não,Sim,QR Code,3,2,5,2,2,3,2,3,4,4,5,4,4,3,Água,Saúde,Redes Sociais,Investir em qualificação profissional.
+166,Pedra Branca,Pedreira,Rural,M,30,30-44,Médio,3206,Autônomo,10,Não,Não,Não,QR Code,4,2,4,1,5,3,3,5,3,4,5,3,3,3,Água,Emprego,Lideranças,Melhorar transporte rural.
+167,Boa Esperança,Santa Rita,Rural,F,48,45-59,Médio,3014,Formal,35,Sim,Não,Não,Tablet,3,4,2,2,3,2,2,2,5,3,5,5,5,3,Água,Saúde,Lideranças,Aumentar diálogo com comunidades.
+168,Rio Claro,Centro,Urbana,F,48,45-59,Médio,4199,Aposentado,28,Não,Não,Não,Tablet,5,4,4,4,5,4,5,4,4,2,4,3,4,3,Emprego,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+169,Serra Azul,Barreiro,Rural,M,39,30-44,Fundamental,2684,Formal,60,Não,Sim,Sim,Tablet,4,2,3,1,3,2,2,4,4,3,5,4,4,3,Água,Educação,Lideranças,Aumentar diálogo com comunidades.
+170,Pedra Branca,Pedreira,Rural,M,27,18-29,Superior,3252,Aposentado,17,Sim,Não,Não,Tablet,4,2,5,1,5,4,2,4,3,4,5,3,3,3,Água,Emprego,Redes Sociais,Investir em qualificação profissional.
+171,Rio Claro,Centro,Urbana,F,28,18-29,Fundamental,3113,Autônomo,35,Não,Não,Não,QR Code,4,4,4,4,2,3,5,4,3,2,5,4,3,1,Saúde,Emprego,Lideranças,Melhorar transporte rural.
+172,Vale Verde,Boa Vista,Rural,M,50,45-59,Médio,1841,Formal,54,Não,Sim,Não,Totem,4,3,3,2,2,4,3,3,4,5,4,5,4,3,Água,Saúde,Lideranças,Investir em qualificação profissional.
+173,Santa Aurora,Lagoa,Urbana,F,41,30-44,Médio,1447,Formal,51,Não,Sim,Não,Totem,3,4,4,4,5,4,5,2,4,4,4,5,4,1,Emprego,Educação,Redes Sociais,Aumentar diálogo com comunidades.
+174,Pedra Branca,Pedreira,Rural,M,27,18-29,Superior,2639,Autônomo,9,Não,Não,Não,Tablet,4,3,5,1,2,5,2,4,4,2,3,4,4,3,Água,Emprego,Rádio,Melhorar transporte rural.
+175,Lagoa Nova,Córrego,Urbana,M,76,60+,Superior,3334,Aposentado,19,Não,Não,Sim,Totem,5,4,3,4,2,3,5,2,3,2,5,3,3,1,Emprego,Saúde,Rádio,Ampliar atendimento de saúde.
+176,São Miguel do Norte,São José,Urbana,M,32,30-44,Médio,2062,Agricultura,9,Não,Sim,Não,QR Code,4,4,4,4,2,4,5,2,3,4,4,3,3,3,Segurança,Educação,WhatsApp,Investir em qualificação profissional.
+177,Serra Azul,Barreiro,Rural,F,79,60+,Fundamental,3403,Agricultura,53,Não,Não,Não,QR Code,3,4,2,1,2,3,3,3,4,4,3,2,4,2,Água,Saúde,Rádio,Aumentar diálogo com comunidades.
+178,Rio Claro,Centro,Rural,F,51,45-59,Fundamental,3566,Autônomo,49,Não,Sim,Não,Tablet,5,2,3,2,3,5,2,2,5,4,4,4,5,3,Água,Saúde,Rádio,Ampliar atendimento de saúde.
+179,Rio Claro,Centro,Urbana,F,56,45-59,Médio,3212,Autônomo,40,Não,Sim,Não,QR Code,3,4,4,4,3,5,5,3,4,4,4,4,4,3,Saúde,Saúde,WhatsApp,Investir em qualificação profissional.
+180,Serra Azul,Barreiro,Urbana,M,20,18-29,Superior,2037,Autônomo,13,Sim,Não,Não,QR Code,5,4,3,4,3,5,5,5,3,3,3,3,3,3,Saúde,Emprego,Lideranças,Ampliar atendimento de saúde.
+181,Vale Verde,Boa Vista,Rural,F,56,45-59,Superior,2141,Agricultura,1,Não,Não,Não,QR Code,4,3,2,2,5,5,4,2,3,5,3,2,3,2,Água,Saúde,WhatsApp,Investir em qualificação profissional.
+182,São Miguel do Norte,São José,Rural,F,62,60+,Médio,2339,Agricultura,10,Não,Não,Sim,QR Code,2,3,3,3,3,3,3,2,2,4,5,2,2,2,Água,Saúde,Rádio,Melhorar abastecimento de água.
+183,Rio Claro,Centro,Urbana,M,77,60+,Fundamental,2298,Agricultura,33,Sim,Não,Não,QR Code,4,4,2,4,5,5,5,5,3,5,5,5,3,3,Saúde,Saúde,Lideranças,Aumentar diálogo com comunidades.
+184,Vale Verde,Boa Vista,Urbana,F,35,30-44,Médio,2285,Desempregado,44,Não,Não,Não,QR Code,3,4,4,4,5,5,5,2,4,5,3,2,4,1,Saúde,Educação,Rádio,Ampliar atendimento de saúde.
+185,Boa Esperança,Santa Rita,Urbana,F,43,30-44,Médio,1709,Autônomo,42,Não,Não,Não,QR Code,5,4,5,4,3,2,5,2,4,4,3,2,4,3,Emprego,Emprego,WhatsApp,Melhorar abastecimento de água.
+186,Santa Aurora,Lagoa,Rural,M,42,30-44,Médio,3115,Aposentado,45,Sim,Não,Não,Tablet,2,2,3,1,4,2,3,2,4,4,5,4,4,3,Água,Água,Rádio,Aumentar diálogo com comunidades.
+187,São Miguel do Norte,São José,Rural,F,71,60+,Superior,1582,Desempregado,33,Sim,Sim,Não,Totem,4,3,4,2,5,4,3,5,5,4,4,4,5,3,Água,Saúde,WhatsApp,Melhorar transporte rural.
+188,Pedra Branca,Pedreira,Rural,F,34,30-44,Fundamental,1722,Agricultura,55,Não,Não,Não,Tablet,3,4,2,3,4,5,3,5,2,4,5,4,2,3,Água,Emprego,Lideranças,Ampliar atendimento de saúde.
+189,Pedra Branca,Pedreira,Rural,F,26,18-29,Fundamental,2838,Desempregado,56,Sim,Não,Sim,QR Code,4,4,2,3,2,2,3,3,3,2,4,5,3,3,Água,Emprego,Lideranças,Investir em qualificação profissional.
+190,Santa Aurora,Lagoa,Urbana,F,69,60+,Médio,1931,Formal,55,Sim,Não,Não,QR Code,2,4,2,4,5,2,5,5,3,4,3,5,3,3,Saúde,Saúde,Lideranças,Aumentar diálogo com comunidades.
+191,Vale Verde,Boa Vista,Urbana,M,59,45-59,Médio,3098,Autônomo,42,Sim,Não,Não,QR Code,4,4,2,4,2,3,5,5,4,2,3,4,4,3,Emprego,Saúde,WhatsApp,Ampliar atendimento de saúde.
+192,Serra Azul,Barreiro,Rural,F,33,30-44,Fundamental,1875,Formal,3,Sim,Sim,Não,QR Code,2,3,2,3,5,4,2,4,5,2,3,4,5,3,Água,Água,Rádio,Ampliar atendimento de saúde.
+193,Pedra Branca,Pedreira,Urbana,M,56,45-59,Superior,3489,Agricultura,45,Não,Sim,Não,QR Code,4,4,3,4,4,3,5,3,3,4,5,3,3,2,Saúde,Saúde,Lideranças,Melhorar abastecimento de água.
+194,Pedra Branca,Pedreira,Urbana,M,50,45-59,Médio,3473,Aposentado,33,Não,Não,Não,QR Code,3,4,3,4,5,4,5,2,4,5,5,4,4,2,Emprego,Saúde,Lideranças,Aumentar diálogo com comunidades.
+195,Boa Esperança,Santa Rita,Rural,M,50,45-59,Fundamental,1370,Agricultura,60,Não,Não,Não,Tablet,2,2,4,3,2,3,4,2,2,3,5,4,2,2,Água,Saúde,Lideranças,Investir em qualificação profissional.
+196,Lagoa Nova,Córrego,Rural,M,28,18-29,Fundamental,1887,Agricultura,11,Sim,Não,Não,QR Code,4,4,2,3,5,2,3,4,3,3,3,4,3,3,Água,Emprego,Lideranças,Melhorar abastecimento de água.
+197,Pedra Branca,Pedreira,Rural,M,68,60+,Fundamental,3496,Agricultura,16,Sim,Não,Não,Tablet,2,4,3,3,4,5,3,2,3,4,3,3,3,3,Água,Saúde,Lideranças,Ampliar atendimento de saúde.
+198,Pedra Branca,Pedreira,Urbana,F,34,30-44,Médio,3151,Agricultura,21,Sim,Não,Sim,Totem,2,4,2,4,2,2,5,4,5,2,5,5,5,3,Segurança,Educação,Redes Sociais,Aumentar diálogo com comunidades.
+199,Boa Esperança,Santa Rita,Urbana,M,19,18-29,Superior,1771,Agricultura,42,Sim,Não,Sim,Totem,2,4,2,4,4,2,5,2,4,2,4,3,4,3,Segurança,Emprego,Redes Sociais,Investir em qualificação profissional.
+200,Vale Verde,Boa Vista,Rural,F,76,60+,Médio,1772,Aposentado,52,Sim,Sim,Não,QR Code,5,2,4,1,2,3,3,3,4,2,5,4,4,3,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+201,São Miguel do Norte,São José,Urbana,M,20,18-29,Superior,2449,Autônomo,55,Não,Não,Não,QR Code,3,4,4,4,5,3,5,3,4,3,3,3,4,1,Saúde,Emprego,Rádio,Investir em qualificação profissional.
+202,Vale Verde,Boa Vista,Urbana,F,60,60+,Fundamental,3340,Agricultura,14,Não,Sim,Não,Tablet,3,4,2,4,3,3,5,3,5,5,4,4,5,1,Emprego,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+203,Santa Aurora,Lagoa,Urbana,F,61,60+,Superior,2206,Desempregado,59,Não,Não,Não,Totem,3,4,4,4,3,4,5,4,3,4,4,2,3,1,Segurança,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+204,São Miguel do Norte,São José,Urbana,M,67,60+,Superior,1435,Formal,5,Não,Não,Sim,Totem,5,4,5,4,4,3,5,3,2,4,3,2,2,3,Emprego,Saúde,Rádio,Melhorar abastecimento de água.
+205,São Miguel do Norte,São José,Rural,M,23,18-29,Médio,3469,Autônomo,24,Sim,Não,Não,Tablet,5,3,2,1,3,2,3,4,4,5,3,3,4,3,Água,Emprego,WhatsApp,Aumentar diálogo com comunidades.
+206,Lagoa Nova,Córrego,Urbana,M,33,30-44,Médio,1879,Aposentado,49,Não,Não,Sim,QR Code,5,4,4,4,5,3,5,5,3,2,5,2,3,2,Segurança,Educação,Lideranças,Investir em qualificação profissional.
+207,Santa Aurora,Lagoa,Rural,M,36,30-44,Fundamental,3381,Autônomo,60,Não,Não,Não,QR Code,2,3,3,1,5,3,4,3,3,2,4,3,3,3,Água,Água,Lideranças,Ampliar atendimento de saúde.
+208,Rio Claro,Centro,Rural,M,27,18-29,Médio,3623,Aposentado,49,Sim,Sim,Não,Totem,3,3,2,3,2,2,3,4,4,2,4,5,4,3,Água,Emprego,Rádio,Melhorar abastecimento de água.
+209,Boa Esperança,Santa Rita,Urbana,F,46,45-59,Superior,2381,Desempregado,33,Sim,Não,Sim,Totem,4,4,5,4,3,4,5,2,5,4,5,5,5,3,Saúde,Saúde,Lideranças,Investir em qualificação profissional.
+210,Pedra Branca,Pedreira,Urbana,F,66,60+,Fundamental,2617,Formal,22,Não,Não,Sim,Totem,3,4,3,4,4,4,5,2,3,2,4,2,3,2,Segurança,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+211,Santa Aurora,Lagoa,Urbana,F,20,18-29,Médio,1701,Desempregado,32,Não,Não,Não,Tablet,5,4,4,4,4,2,5,5,2,3,5,3,2,1,Emprego,Emprego,Redes Sociais,Ampliar atendimento de saúde.
+212,Santa Aurora,Lagoa,Rural,F,61,60+,Superior,2765,Autônomo,29,Sim,Não,Não,QR Code,2,2,3,1,5,4,2,5,3,4,4,4,3,3,Água,Saúde,Lideranças,Aumentar diálogo com comunidades.
+213,Pedra Branca,Pedreira,Urbana,F,79,60+,Superior,2345,Desempregado,15,Não,Não,Não,Tablet,3,4,5,4,2,2,5,3,3,5,4,2,3,2,Segurança,Saúde,Redes Sociais,Melhorar abastecimento de água.
+214,Santa Aurora,Lagoa,Urbana,F,59,45-59,Superior,3007,Desempregado,48,Não,Não,Sim,Totem,3,4,3,4,4,3,5,4,3,4,4,2,3,3,Saúde,Saúde,Rádio,Aumentar diálogo com comunidades.
+215,Boa Esperança,Santa Rita,Rural,M,50,45-59,Fundamental,2908,Formal,48,Não,Não,Não,Totem,2,4,2,3,4,2,3,2,4,3,3,2,4,2,Água,Saúde,WhatsApp,Investir em qualificação profissional.
+216,Santa Aurora,Lagoa,Rural,F,44,30-44,Superior,1831,Autônomo,21,Sim,Sim,Não,Totem,4,3,3,3,4,4,4,4,4,3,4,5,4,3,Água,Educação,Redes Sociais,Aumentar diálogo com comunidades.
+217,Santa Aurora,Lagoa,Urbana,F,32,30-44,Fundamental,2185,Desempregado,21,Não,Não,Não,Tablet,2,4,3,4,4,2,5,3,2,3,3,4,2,3,Segurança,Emprego,Rádio,Melhorar abastecimento de água.
+218,Rio Claro,Centro,Rural,F,43,30-44,Fundamental,3592,Aposentado,21,Não,Não,Não,Tablet,4,4,3,2,2,5,3,5,4,2,5,2,4,2,Água,Emprego,Rádio,Ampliar atendimento de saúde.
+219,Rio Claro,Centro,Rural,F,23,18-29,Fundamental,4180,Aposentado,29,Não,Sim,Não,Tablet,2,4,4,2,2,2,2,4,3,2,5,3,3,3,Água,Emprego,Lideranças,Investir em qualificação profissional.
+220,Rio Claro,Centro,Urbana,M,36,30-44,Fundamental,3746,Autônomo,8,Sim,Não,Não,Totem,5,4,3,4,5,5,5,3,5,3,5,5,5,3,Segurança,Emprego,Redes Sociais,Melhorar transporte rural.
+221,Boa Esperança,Santa Rita,Rural,M,21,18-29,Médio,1879,Agricultura,35,Não,Sim,Não,Totem,2,4,2,3,4,5,2,2,4,5,3,3,4,3,Água,Emprego,Lideranças,Melhorar abastecimento de água.
+222,Boa Esperança,Santa Rita,Urbana,F,80,60+,Superior,2703,Desempregado,58,Sim,Não,Não,Tablet,3,4,3,4,2,3,5,2,3,2,4,3,3,3,Emprego,Saúde,Rádio,Investir em qualificação profissional.
+223,Boa Esperança,Santa Rita,Urbana,F,48,45-59,Médio,1624,Desempregado,15,Não,Não,Não,Tablet,4,4,5,4,4,3,5,2,2,3,4,3,2,1,Saúde,Saúde,Lideranças,Melhorar abastecimento de água.
+224,São Miguel do Norte,São José,Urbana,F,52,45-59,Superior,1836,Desempregado,35,Não,Não,Não,QR Code,4,4,3,4,2,5,5,4,4,5,3,4,4,1,Emprego,Saúde,WhatsApp,Melhorar abastecimento de água.
+225,Serra Azul,Barreiro,Urbana,F,22,18-29,Superior,2633,Formal,34,Não,Não,Não,QR Code,4,4,5,4,4,5,5,4,3,2,4,4,3,2,Emprego,Emprego,Rádio,Melhorar abastecimento de água.
+226,São Miguel do Norte,São José,Urbana,F,46,45-59,Médio,1558,Aposentado,26,Sim,Não,Sim,QR Code,4,4,4,4,3,2,5,2,4,4,5,4,4,3,Segurança,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+227,Pedra Branca,Pedreira,Rural,M,37,30-44,Fundamental,3401,Agricultura,3,Sim,Não,Não,QR Code,5,3,3,3,4,2,3,2,5,5,4,4,5,3,Água,Emprego,WhatsApp,Melhorar abastecimento de água.
+228,Lagoa Nova,Córrego,Urbana,F,34,30-44,Superior,3568,Autônomo,38,Não,Não,Não,Tablet,3,4,4,4,3,5,5,3,2,2,3,4,2,2,Saúde,Água,Lideranças,Investir em qualificação profissional.
+229,Boa Esperança,Santa Rita,Urbana,F,25,18-29,Superior,2714,Autônomo,59,Não,Não,Não,Totem,2,4,5,4,3,5,5,2,2,3,5,3,2,3,Emprego,Emprego,Rádio,Investir em qualificação profissional.
+230,Boa Esperança,Santa Rita,Urbana,F,72,60+,Superior,2367,Agricultura,60,Não,Sim,Não,Tablet,5,4,2,4,4,3,5,2,4,5,4,4,4,2,Saúde,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+231,Boa Esperança,Santa Rita,Urbana,F,34,30-44,Fundamental,911,Agricultura,1,Não,Não,Não,QR Code,2,4,3,4,2,3,5,2,4,4,5,3,4,3,Saúde,Água,Redes Sociais,Ampliar atendimento de saúde.
+232,Lagoa Nova,Córrego,Urbana,M,68,60+,Superior,2218,Desempregado,51,Não,Não,Não,QR Code,4,4,3,4,3,3,5,3,4,2,4,3,4,3,Emprego,Saúde,Lideranças,Aumentar diálogo com comunidades.
+233,Lagoa Nova,Córrego,Urbana,M,19,18-29,Superior,2602,Agricultura,26,Sim,Não,Sim,Totem,5,4,4,4,2,5,5,3,5,2,5,3,5,3,Saúde,Emprego,Redes Sociais,Melhorar abastecimento de água.
+234,Pedra Branca,Pedreira,Rural,M,59,45-59,Fundamental,3078,Autônomo,36,Não,Sim,Não,Totem,4,4,2,2,2,2,2,3,4,3,4,5,4,2,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+235,Serra Azul,Barreiro,Rural,F,55,45-59,Fundamental,1704,Formal,21,Não,Sim,Não,Totem,3,2,5,1,4,2,4,2,3,5,4,5,3,2,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+236,Pedra Branca,Pedreira,Rural,M,72,60+,Fundamental,3327,Agricultura,43,Sim,Não,Sim,Totem,2,4,2,3,2,5,2,2,3,4,3,4,3,3,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+237,São Miguel do Norte,São José,Urbana,M,23,18-29,Médio,3502,Desempregado,8,Não,Não,Não,Tablet,3,4,2,4,5,4,5,2,3,5,4,4,3,3,Segurança,Emprego,Lideranças,Melhorar transporte rural.
+238,Serra Azul,Barreiro,Urbana,M,59,45-59,Fundamental,3344,Formal,44,Não,Não,Não,QR Code,4,4,5,4,4,2,5,2,2,5,4,2,2,1,Emprego,Saúde,Redes Sociais,Melhorar transporte rural.
+239,Vale Verde,Boa Vista,Rural,F,52,45-59,Médio,1673,Desempregado,21,Não,Não,Não,Totem,5,2,2,2,3,4,2,2,3,3,5,2,3,2,Água,Saúde,WhatsApp,Melhorar transporte rural.
+240,Santa Aurora,Lagoa,Urbana,M,61,60+,Fundamental,3239,Agricultura,5,Não,Não,Não,Totem,4,4,5,4,2,2,5,3,3,2,3,4,3,3,Segurança,Saúde,Lideranças,Melhorar abastecimento de água.
+241,Vale Verde,Boa Vista,Rural,F,70,60+,Superior,3182,Autônomo,4,Sim,Não,Não,QR Code,3,4,2,2,3,3,3,5,3,3,4,4,3,3,Água,Saúde,WhatsApp,Melhorar transporte rural.
+242,Santa Aurora,Lagoa,Urbana,F,57,45-59,Fundamental,2158,Formal,47,Não,Sim,Não,QR Code,5,4,3,4,4,4,5,5,4,5,4,4,4,3,Emprego,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+243,Pedra Branca,Pedreira,Rural,F,43,30-44,Fundamental,2060,Agricultura,43,Não,Sim,Não,Totem,5,2,2,3,5,4,4,5,3,5,4,4,3,3,Água,Água,WhatsApp,Ampliar atendimento de saúde.
+244,Rio Claro,Centro,Urbana,M,20,18-29,Médio,2346,Agricultura,25,Não,Não,Não,QR Code,3,4,3,4,3,5,5,2,4,5,5,4,4,3,Emprego,Emprego,Redes Sociais,Melhorar abastecimento de água.
+245,Lagoa Nova,Córrego,Urbana,F,71,60+,Superior,2971,Aposentado,57,Não,Sim,Não,Tablet,4,4,5,4,4,5,5,2,5,4,3,4,5,1,Saúde,Saúde,Rádio,Melhorar transporte rural.
+246,São Miguel do Norte,São José,Rural,M,42,30-44,Fundamental,2044,Aposentado,6,Não,Não,Não,Tablet,5,2,5,3,2,3,4,2,2,2,5,4,2,1,Água,Emprego,WhatsApp,Investir em qualificação profissional.
+247,Santa Aurora,Lagoa,Rural,F,70,60+,Médio,3498,Autônomo,22,Não,Não,Não,QR Code,4,2,5,1,2,4,4,2,4,4,5,4,4,1,Água,Saúde,Lideranças,Melhorar transporte rural.
+248,Pedra Branca,Pedreira,Urbana,M,76,60+,Médio,3492,Agricultura,1,Não,Não,Não,QR Code,4,4,4,4,3,2,5,4,3,2,5,4,3,3,Saúde,Saúde,Lideranças,Melhorar abastecimento de água.
+249,Pedra Branca,Pedreira,Urbana,M,51,45-59,Superior,1952,Desempregado,10,Não,Não,Sim,Tablet,3,4,4,4,4,4,5,2,4,4,4,3,4,1,Emprego,Saúde,WhatsApp,Melhorar abastecimento de água.
+250,Serra Azul,Barreiro,Urbana,M,64,60+,Superior,1697,Aposentado,7,Sim,Sim,Não,QR Code,2,4,5,4,2,4,5,2,4,4,4,4,4,3,Saúde,Saúde,Rádio,Ampliar atendimento de saúde.
+251,Santa Aurora,Lagoa,Urbana,F,37,30-44,Médio,3590,Agricultura,9,Não,Não,Não,QR Code,3,4,5,4,4,3,5,4,2,2,3,2,2,3,Saúde,Água,Redes Sociais,Melhorar transporte rural.
+252,Boa Esperança,Santa Rita,Urbana,M,26,18-29,Fundamental,1966,Desempregado,44,Não,Sim,Não,QR Code,4,4,3,4,2,2,5,2,4,2,4,3,4,3,Saúde,Emprego,Redes Sociais,Melhorar transporte rural.
+253,São Miguel do Norte,São José,Rural,F,68,60+,Fundamental,2706,Desempregado,48,Não,Não,Não,QR Code,5,3,5,1,4,3,3,2,3,2,5,2,3,2,Água,Saúde,Rádio,Melhorar transporte rural.
+254,Boa Esperança,Santa Rita,Rural,M,44,30-44,Médio,3058,Agricultura,45,Sim,Não,Não,QR Code,4,3,3,3,3,5,3,2,4,2,3,4,4,3,Água,Emprego,Redes Sociais,Melhorar abastecimento de água.
+255,Santa Aurora,Lagoa,Rural,F,54,45-59,Fundamental,2965,Agricultura,46,Sim,Não,Não,Totem,4,4,5,3,3,3,4,5,3,3,5,3,3,3,Água,Saúde,Rádio,Ampliar atendimento de saúde.
+256,Rio Claro,Centro,Urbana,M,22,18-29,Fundamental,3091,Aposentado,40,Sim,Não,Sim,Totem,2,4,3,4,4,4,5,5,3,5,5,3,3,3,Emprego,Emprego,WhatsApp,Melhorar abastecimento de água.
+257,São Miguel do Norte,São José,Rural,F,54,45-59,Fundamental,3083,Autônomo,1,Sim,Não,Não,Totem,5,3,5,1,2,5,4,2,4,5,4,3,4,3,Água,Saúde,Rádio,Ampliar atendimento de saúde.
+258,Lagoa Nova,Córrego,Urbana,M,38,30-44,Médio,3273,Desempregado,36,Sim,Não,Sim,QR Code,5,4,5,4,5,4,5,3,5,5,4,3,5,3,Saúde,Educação,Redes Sociais,Melhorar transporte rural.
+259,Lagoa Nova,Córrego,Urbana,F,35,30-44,Médio,3534,Desempregado,18,Sim,Sim,Não,Totem,5,4,2,4,3,2,5,4,5,3,5,5,5,3,Saúde,Emprego,Lideranças,Melhorar transporte rural.
+260,Vale Verde,Boa Vista,Urbana,F,32,30-44,Superior,3083,Desempregado,44,Não,Não,Não,Totem,5,4,3,4,5,4,5,2,3,5,4,4,3,2,Saúde,Emprego,WhatsApp,Melhorar abastecimento de água.
+261,Pedra Branca,Pedreira,Urbana,M,77,60+,Superior,1657,Autônomo,56,Não,Não,Sim,Tablet,2,4,4,4,2,3,5,2,3,2,3,2,3,3,Saúde,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+262,Vale Verde,Boa Vista,Rural,M,55,45-59,Superior,1550,Aposentado,36,Não,Não,Não,Tablet,2,3,2,3,4,4,2,5,4,5,4,3,4,1,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+263,Santa Aurora,Lagoa,Urbana,M,24,18-29,Fundamental,2076,Autônomo,52,Sim,Não,Não,QR Code,3,4,4,4,4,3,5,2,4,5,3,4,4,3,Segurança,Emprego,Rádio,Melhorar transporte rural.
+264,Serra Azul,Barreiro,Urbana,M,42,30-44,Superior,3150,Aposentado,22,Não,Sim,Não,QR Code,5,4,4,4,5,5,5,2,3,3,4,3,3,3,Segurança,Emprego,WhatsApp,Investir em qualificação profissional.
+265,Vale Verde,Boa Vista,Urbana,F,57,45-59,Médio,2508,Formal,7,Sim,Não,Sim,QR Code,3,4,4,4,2,3,5,5,5,5,4,3,5,3,Segurança,Saúde,Lideranças,Ampliar atendimento de saúde.
+266,Serra Azul,Barreiro,Urbana,M,37,30-44,Médio,2370,Autônomo,16,Não,Sim,Sim,QR Code,4,4,4,4,2,5,5,4,4,2,5,3,4,2,Segurança,Emprego,Lideranças,Ampliar atendimento de saúde.
+267,Santa Aurora,Lagoa,Urbana,F,56,45-59,Fundamental,2455,Agricultura,41,Não,Não,Não,Tablet,2,4,3,4,2,3,5,5,4,3,4,3,4,1,Emprego,Saúde,WhatsApp,Investir em qualificação profissional.
+268,Boa Esperança,Santa Rita,Rural,F,32,30-44,Médio,2239,Aposentado,16,Sim,Não,Sim,Totem,3,3,3,1,5,5,2,2,5,4,5,5,5,3,Água,Água,Redes Sociais,Melhorar abastecimento de água.
+269,Serra Azul,Barreiro,Urbana,M,72,60+,Superior,3477,Desempregado,2,Não,Não,Não,Tablet,3,4,3,4,4,4,5,2,3,5,3,2,3,2,Emprego,Saúde,Lideranças,Ampliar atendimento de saúde.
+270,Vale Verde,Boa Vista,Rural,M,51,45-59,Médio,3248,Desempregado,5,Não,Não,Não,QR Code,2,2,4,3,4,3,3,2,3,3,3,4,3,1,Água,Saúde,Lideranças,Aumentar diálogo com comunidades.
+271,Santa Aurora,Lagoa,Rural,M,40,30-44,Médio,2970,Aposentado,42,Não,Sim,Não,QR Code,5,2,5,1,4,3,4,3,5,5,5,5,5,3,Água,Água,Rádio,Melhorar abastecimento de água.
+272,Vale Verde,Boa Vista,Rural,M,69,60+,Superior,2599,Formal,32,Sim,Não,Não,Tablet,2,4,5,2,4,2,2,4,4,3,4,4,4,3,Água,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+273,Vale Verde,Boa Vista,Urbana,M,44,30-44,Superior,1819,Desempregado,7,Não,Não,Não,QR Code,3,4,5,4,5,5,5,5,4,2,4,4,4,2,Saúde,Água,Lideranças,Investir em qualificação profissional.
+274,Lagoa Nova,Córrego,Urbana,M,46,45-59,Superior,3356,Autônomo,39,Sim,Não,Sim,Totem,3,4,3,4,3,4,5,2,5,5,5,3,5,3,Emprego,Saúde,WhatsApp,Investir em qualificação profissional.
+275,São Miguel do Norte,São José,Rural,F,28,18-29,Superior,1629,Autônomo,13,Não,Sim,Não,Tablet,2,3,2,2,5,4,3,2,5,3,5,4,5,2,Água,Emprego,Redes Sociais,Melhorar abastecimento de água.
+276,Lagoa Nova,Córrego,Urbana,M,75,60+,Superior,3116,Autônomo,38,Não,Não,Não,QR Code,3,4,2,4,3,2,5,5,2,2,5,4,2,1,Segurança,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+277,Vale Verde,Boa Vista,Urbana,M,64,60+,Fundamental,1510,Aposentado,4,Não,Sim,Não,QR Code,4,4,4,4,2,4,5,2,5,5,3,4,5,3,Saúde,Saúde,WhatsApp,Melhorar transporte rural.
+278,Serra Azul,Barreiro,Urbana,M,27,18-29,Fundamental,2629,Aposentado,59,Não,Sim,Não,QR Code,4,4,5,4,2,3,5,4,3,4,5,5,3,3,Saúde,Emprego,WhatsApp,Aumentar diálogo com comunidades.
+279,Rio Claro,Centro,Urbana,F,30,30-44,Fundamental,3405,Formal,41,Não,Não,Não,QR Code,3,4,2,4,4,2,5,4,4,3,4,2,4,2,Segurança,Água,Lideranças,Ampliar atendimento de saúde.
+280,Serra Azul,Barreiro,Urbana,M,71,60+,Superior,3406,Formal,37,Não,Sim,Não,QR Code,2,4,2,4,4,3,5,4,5,2,5,3,5,2,Saúde,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+281,Vale Verde,Boa Vista,Rural,M,68,60+,Fundamental,1564,Formal,40,Não,Não,Não,Tablet,3,4,2,2,2,5,2,3,2,5,4,2,2,3,Água,Saúde,Lideranças,Aumentar diálogo com comunidades.
+282,Santa Aurora,Lagoa,Urbana,M,43,30-44,Médio,1847,Aposentado,50,Não,Não,Não,QR Code,3,4,5,4,5,5,5,4,3,2,3,2,3,1,Segurança,Água,Rádio,Aumentar diálogo com comunidades.
+283,Lagoa Nova,Córrego,Urbana,F,67,60+,Fundamental,1485,Formal,52,Sim,Não,Não,QR Code,4,4,3,4,2,2,5,5,3,2,4,3,3,3,Saúde,Saúde,Rádio,Investir em qualificação profissional.
+284,São Miguel do Norte,São José,Urbana,M,26,18-29,Médio,2944,Desempregado,18,Não,Não,Não,Tablet,4,4,3,4,5,4,5,3,4,3,5,2,4,3,Saúde,Emprego,WhatsApp,Aumentar diálogo com comunidades.
+285,Serra Azul,Barreiro,Rural,F,20,18-29,Fundamental,3378,Autônomo,37,Não,Sim,Não,Tablet,5,2,2,3,4,4,3,5,5,5,4,3,5,1,Água,Emprego,Lideranças,Ampliar atendimento de saúde.
+286,Santa Aurora,Lagoa,Urbana,F,31,30-44,Fundamental,1909,Aposentado,15,Sim,Não,Não,QR Code,2,4,2,4,4,4,5,4,4,5,3,4,4,3,Segurança,Emprego,Rádio,Aumentar diálogo com comunidades.
+287,São Miguel do Norte,São José,Urbana,M,38,30-44,Médio,3032,Autônomo,43,Não,Sim,Não,Tablet,2,4,3,4,3,4,5,2,4,3,4,3,4,2,Emprego,Água,Redes Sociais,Melhorar abastecimento de água.
+288,Pedra Branca,Pedreira,Rural,M,76,60+,Fundamental,2441,Aposentado,10,Não,Sim,Sim,Totem,4,4,5,3,3,5,4,5,5,2,5,3,5,1,Água,Saúde,WhatsApp,Melhorar abastecimento de água.
+289,Pedra Branca,Pedreira,Rural,M,61,60+,Fundamental,2550,Autônomo,52,Não,Sim,Não,Tablet,5,3,2,2,4,5,3,5,3,3,5,4,3,2,Água,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+290,Lagoa Nova,Córrego,Rural,M,37,30-44,Fundamental,2251,Desempregado,33,Não,Não,Não,Totem,3,4,3,1,2,5,4,4,2,5,4,4,2,2,Água,Água,Redes Sociais,Aumentar diálogo com comunidades.
+291,São Miguel do Norte,São José,Rural,M,62,60+,Superior,2482,Agricultura,37,Não,Sim,Não,Tablet,2,2,3,2,5,3,4,4,3,3,5,5,3,1,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+292,Serra Azul,Barreiro,Urbana,M,46,45-59,Fundamental,1861,Formal,33,Não,Não,Não,QR Code,3,4,3,4,2,3,5,5,4,4,3,2,4,1,Segurança,Saúde,Lideranças,Melhorar transporte rural.
+293,São Miguel do Norte,São José,Urbana,M,34,30-44,Superior,3567,Formal,58,Não,Não,Não,Totem,5,4,2,4,4,4,5,4,4,3,4,2,4,3,Segurança,Água,Rádio,Ampliar atendimento de saúde.
+294,Rio Claro,Centro,Rural,F,19,18-29,Fundamental,2848,Formal,8,Não,Sim,Não,Totem,2,2,2,2,4,4,4,5,4,2,5,5,4,1,Água,Emprego,Lideranças,Aumentar diálogo com comunidades.
+295,Vale Verde,Boa Vista,Urbana,M,77,60+,Fundamental,1579,Autônomo,37,Sim,Não,Não,Totem,3,4,5,4,2,2,5,4,4,3,3,5,4,3,Segurança,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+296,Lagoa Nova,Córrego,Urbana,F,63,60+,Médio,3420,Autônomo,27,Não,Não,Não,Tablet,5,4,4,4,2,3,5,5,2,5,5,3,2,2,Segurança,Saúde,WhatsApp,Melhorar abastecimento de água.
+297,Vale Verde,Boa Vista,Rural,F,20,18-29,Médio,2111,Formal,3,Não,Não,Não,QR Code,4,3,4,3,5,2,3,4,3,3,5,3,3,1,Água,Emprego,WhatsApp,Melhorar abastecimento de água.
+298,Lagoa Nova,Córrego,Urbana,F,29,18-29,Fundamental,2435,Desempregado,34,Sim,Não,Sim,Totem,4,4,4,4,5,4,5,5,3,2,4,4,3,3,Segurança,Emprego,Redes Sociais,Ampliar atendimento de saúde.
+299,Rio Claro,Centro,Rural,F,47,45-59,Superior,3983,Desempregado,14,Não,Não,Não,Tablet,4,4,2,2,4,5,4,2,2,4,4,3,2,2,Água,Saúde,Redes Sociais,Melhorar transporte rural.
+300,Lagoa Nova,Córrego,Rural,M,78,60+,Fundamental,3233,Autônomo,15,Não,Não,Sim,QR Code,4,2,2,2,2,5,2,5,4,4,5,2,4,3,Água,Saúde,Rádio,Melhorar abastecimento de água.
+301,Rio Claro,Centro,Urbana,M,46,45-59,Fundamental,3218,Desempregado,21,Não,Não,Não,Tablet,5,4,4,4,2,5,5,2,3,4,4,4,3,3,Emprego,Saúde,WhatsApp,Melhorar abastecimento de água.
+302,Boa Esperança,Santa Rita,Urbana,M,34,30-44,Fundamental,1684,Formal,25,Não,Não,Não,Tablet,3,4,5,4,4,3,5,2,4,4,4,3,4,1,Segurança,Emprego,WhatsApp,Investir em qualificação profissional.
+303,Lagoa Nova,Córrego,Rural,F,43,30-44,Médio,2024,Autônomo,45,Não,Não,Não,Tablet,4,2,2,2,3,3,3,3,4,2,3,4,4,2,Água,Educação,Lideranças,Ampliar atendimento de saúde.
+304,São Miguel do Norte,São José,Rural,M,46,45-59,Superior,3381,Aposentado,37,Sim,Não,Não,Tablet,3,3,3,2,5,5,3,2,4,2,3,5,4,3,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+305,Rio Claro,Centro,Rural,F,68,60+,Médio,3000,Formal,10,Não,Sim,Não,Tablet,2,4,3,1,3,3,4,5,3,5,5,4,3,1,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+306,Pedra Branca,Pedreira,Urbana,M,73,60+,Superior,2713,Desempregado,39,Sim,Não,Não,Totem,2,4,4,4,4,2,5,3,3,2,5,5,3,3,Emprego,Saúde,Redes Sociais,Investir em qualificação profissional.
+307,Lagoa Nova,Córrego,Urbana,M,50,45-59,Médio,1884,Autônomo,42,Não,Não,Sim,Totem,3,4,3,4,4,3,5,3,3,2,3,3,3,3,Emprego,Saúde,Redes Sociais,Investir em qualificação profissional.
+308,Vale Verde,Boa Vista,Rural,M,65,60+,Fundamental,3341,Desempregado,53,Não,Não,Não,Tablet,4,3,2,3,4,5,4,5,3,2,4,2,3,1,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+309,Pedra Branca,Pedreira,Rural,M,20,18-29,Médio,1903,Agricultura,5,Não,Não,Não,QR Code,3,4,4,2,5,5,4,5,4,2,3,4,4,2,Água,Emprego,Lideranças,Ampliar atendimento de saúde.
+310,Lagoa Nova,Córrego,Rural,M,76,60+,Fundamental,3123,Desempregado,7,Sim,Não,Não,Tablet,5,3,4,1,4,4,3,2,3,4,4,4,3,3,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+311,Santa Aurora,Lagoa,Rural,F,69,60+,Superior,3304,Desempregado,33,Não,Sim,Não,Tablet,2,4,2,2,2,2,3,3,3,5,3,5,3,3,Água,Saúde,Redes Sociais,Investir em qualificação profissional.
+312,São Miguel do Norte,São José,Urbana,M,36,30-44,Fundamental,1902,Desempregado,29,Sim,Não,Não,Totem,5,4,2,4,5,3,5,5,5,2,4,5,5,3,Emprego,Emprego,WhatsApp,Ampliar atendimento de saúde.
+313,Rio Claro,Centro,Urbana,M,62,60+,Médio,2941,Agricultura,56,Sim,Não,Não,QR Code,2,4,4,4,4,3,5,3,3,2,5,5,3,3,Emprego,Saúde,Rádio,Melhorar transporte rural.
+314,Vale Verde,Boa Vista,Urbana,F,40,30-44,Médio,1818,Desempregado,20,Sim,Não,Não,Tablet,5,4,4,4,5,2,5,4,3,4,5,4,3,3,Segurança,Água,Rádio,Investir em qualificação profissional.
+315,São Miguel do Norte,São José,Rural,F,43,30-44,Fundamental,2482,Agricultura,40,Não,Não,Não,QR Code,4,2,4,2,4,4,4,3,4,5,4,2,4,2,Água,Emprego,Rádio,Ampliar atendimento de saúde.
+316,Santa Aurora,Lagoa,Rural,M,75,60+,Médio,1674,Formal,11,Não,Não,Não,Tablet,5,4,5,1,3,3,3,2,2,3,3,2,2,3,Água,Saúde,WhatsApp,Melhorar abastecimento de água.
+317,Serra Azul,Barreiro,Rural,F,69,60+,Superior,3406,Formal,29,Não,Não,Sim,QR Code,3,4,3,1,3,5,4,4,3,4,5,4,3,2,Água,Saúde,Lideranças,Melhorar transporte rural.
+318,Serra Azul,Barreiro,Urbana,M,80,60+,Fundamental,2147,Desempregado,59,Não,Sim,Sim,Totem,3,4,2,4,3,2,5,4,4,2,5,5,4,2,Segurança,Saúde,Lideranças,Melhorar abastecimento de água.
+319,Serra Azul,Barreiro,Urbana,M,60,60+,Superior,2840,Formal,20,Sim,Sim,Não,Totem,2,4,2,4,5,4,5,4,5,3,3,5,5,3,Emprego,Saúde,Redes Sociais,Investir em qualificação profissional.
+320,Lagoa Nova,Córrego,Rural,F,21,18-29,Superior,1706,Desempregado,8,Não,Sim,Não,Tablet,2,3,5,3,2,5,3,5,4,3,5,3,4,2,Água,Emprego,WhatsApp,Melhorar abastecimento de água.
+321,Rio Claro,Centro,Urbana,M,23,18-29,Superior,4038,Formal,42,Não,Não,Não,QR Code,5,4,2,4,2,5,5,2,3,5,3,2,3,1,Saúde,Emprego,Rádio,Melhorar abastecimento de água.
+322,Santa Aurora,Lagoa,Rural,F,21,18-29,Fundamental,3489,Desempregado,28,Sim,Não,Não,Totem,2,2,2,2,3,2,2,5,5,2,3,4,5,3,Água,Emprego,Redes Sociais,Investir em qualificação profissional.
+323,Pedra Branca,Pedreira,Urbana,F,42,30-44,Superior,2594,Desempregado,49,Sim,Não,Não,QR Code,3,4,5,4,4,3,5,2,3,2,4,3,3,3,Segurança,Emprego,Redes Sociais,Melhorar transporte rural.
+324,Serra Azul,Barreiro,Urbana,F,40,30-44,Fundamental,3446,Desempregado,8,Não,Não,Não,QR Code,3,4,2,4,2,5,5,2,3,5,4,3,3,3,Saúde,Água,WhatsApp,Melhorar transporte rural.
+325,Pedra Branca,Pedreira,Rural,M,24,18-29,Superior,2708,Desempregado,56,Não,Não,Não,Tablet,3,3,2,3,5,5,2,5,2,2,3,3,2,3,Água,Emprego,Redes Sociais,Melhorar transporte rural.
+326,Lagoa Nova,Córrego,Urbana,M,79,60+,Fundamental,3587,Agricultura,2,Sim,Não,Não,Totem,3,4,2,4,4,4,5,2,5,2,5,4,5,3,Saúde,Saúde,Rádio,Melhorar abastecimento de água.
+327,Rio Claro,Centro,Rural,F,71,60+,Superior,3678,Agricultura,45,Não,Não,Sim,Tablet,2,3,5,3,5,3,3,5,3,2,4,4,3,1,Água,Saúde,WhatsApp,Investir em qualificação profissional.
+328,Pedra Branca,Pedreira,Urbana,F,20,18-29,Médio,3313,Aposentado,6,Sim,Não,Não,Totem,5,4,2,4,3,4,5,5,4,4,5,3,4,3,Emprego,Emprego,WhatsApp,Melhorar transporte rural.
+329,Santa Aurora,Lagoa,Urbana,M,24,18-29,Superior,3238,Autônomo,60,Não,Não,Não,Totem,2,4,5,4,5,3,5,2,4,5,5,2,4,2,Saúde,Emprego,WhatsApp,Melhorar abastecimento de água.
+330,Boa Esperança,Santa Rita,Urbana,M,64,60+,Médio,1987,Aposentado,33,Sim,Não,Não,Tablet,5,4,5,4,4,5,5,2,5,2,5,4,5,3,Emprego,Saúde,Rádio,Investir em qualificação profissional.
+331,Santa Aurora,Lagoa,Urbana,F,28,18-29,Médio,1801,Aposentado,39,Não,Não,Não,Tablet,5,4,2,4,5,2,5,5,4,2,3,2,4,2,Emprego,Emprego,WhatsApp,Investir em qualificação profissional.
+332,Rio Claro,Centro,Rural,M,55,45-59,Fundamental,2316,Agricultura,31,Sim,Sim,Não,Totem,5,4,2,1,2,5,2,4,5,5,5,5,5,3,Água,Saúde,WhatsApp,Melhorar transporte rural.
+333,São Miguel do Norte,São José,Rural,M,23,18-29,Fundamental,2605,Aposentado,33,Sim,Não,Não,QR Code,5,2,3,3,2,2,4,3,5,5,3,4,5,3,Água,Emprego,Rádio,Melhorar transporte rural.
+334,Rio Claro,Centro,Rural,F,61,60+,Superior,3043,Agricultura,1,Sim,Não,Não,Tablet,4,2,3,1,5,2,4,4,5,4,4,4,5,3,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+335,São Miguel do Norte,São José,Rural,F,40,30-44,Superior,2670,Agricultura,35,Sim,Não,Não,Tablet,5,3,4,2,4,5,3,4,5,2,4,5,5,3,Água,Educação,Redes Sociais,Investir em qualificação profissional.
+336,Pedra Branca,Pedreira,Urbana,M,78,60+,Médio,1419,Autônomo,28,Não,Sim,Não,Totem,5,4,2,4,4,3,5,5,5,5,4,5,5,1,Segurança,Saúde,WhatsApp,Ampliar atendimento de saúde.
+337,Rio Claro,Centro,Rural,M,77,60+,Superior,3836,Desempregado,3,Sim,Sim,Sim,QR Code,2,3,2,2,3,5,4,3,4,5,4,5,4,3,Água,Saúde,Lideranças,Investir em qualificação profissional.
+338,São Miguel do Norte,São José,Urbana,M,50,45-59,Médio,2711,Agricultura,55,Não,Sim,Não,Totem,5,4,3,4,3,5,5,4,4,4,4,5,4,2,Segurança,Saúde,WhatsApp,Investir em qualificação profissional.
+339,Vale Verde,Boa Vista,Urbana,F,45,45-59,Fundamental,3081,Agricultura,8,Não,Não,Não,Totem,5,4,4,4,4,5,5,3,2,3,5,4,2,1,Saúde,Saúde,Lideranças,Melhorar abastecimento de água.
+340,Santa Aurora,Lagoa,Rural,F,70,60+,Superior,2112,Autônomo,35,Não,Não,Não,Totem,2,4,3,3,2,4,4,3,4,4,4,2,4,3,Água,Saúde,Rádio,Aumentar diálogo com comunidades.
+341,Boa Esperança,Santa Rita,Urbana,F,33,30-44,Fundamental,1865,Aposentado,14,Sim,Não,Sim,QR Code,2,4,5,4,3,5,5,2,4,5,5,3,4,3,Saúde,Emprego,Redes Sociais,Aumentar diálogo com comunidades.
+342,Vale Verde,Boa Vista,Rural,F,27,18-29,Fundamental,2166,Autônomo,7,Não,Não,Sim,Tablet,5,4,4,2,3,2,4,4,2,4,4,2,2,3,Água,Emprego,Lideranças,Ampliar atendimento de saúde.
+343,São Miguel do Norte,São José,Urbana,F,27,18-29,Superior,2120,Aposentado,53,Não,Não,Não,QR Code,4,4,5,4,5,5,5,2,4,3,3,2,4,3,Saúde,Emprego,WhatsApp,Ampliar atendimento de saúde.
+344,Boa Esperança,Santa Rita,Urbana,F,80,60+,Médio,2386,Formal,51,Não,Não,Não,QR Code,2,4,4,4,2,3,5,2,2,5,5,4,2,2,Saúde,Saúde,Rádio,Melhorar transporte rural.
+345,Pedra Branca,Pedreira,Rural,M,56,45-59,Médio,1715,Formal,49,Não,Não,Sim,Tablet,5,3,2,2,4,2,4,5,2,4,4,2,2,2,Água,Saúde,Rádio,Investir em qualificação profissional.
+346,Vale Verde,Boa Vista,Urbana,F,38,30-44,Médio,2308,Desempregado,59,Não,Sim,Sim,Totem,2,4,2,4,4,2,5,3,5,5,4,3,5,3,Saúde,Emprego,Lideranças,Investir em qualificação profissional.
+347,Lagoa Nova,Córrego,Urbana,F,34,30-44,Fundamental,3232,Desempregado,19,Não,Não,Não,Tablet,5,4,4,4,3,5,5,5,3,4,5,2,3,2,Saúde,Emprego,Rádio,Ampliar atendimento de saúde.
+348,Pedra Branca,Pedreira,Rural,M,42,30-44,Fundamental,3517,Agricultura,23,Não,Não,Não,QR Code,5,4,4,1,2,5,4,5,4,3,3,3,4,1,Água,Água,WhatsApp,Investir em qualificação profissional.
+349,Rio Claro,Centro,Rural,M,66,60+,Fundamental,3793,Desempregado,38,Não,Sim,Não,Tablet,5,4,3,3,3,3,2,5,4,2,4,3,4,2,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+350,Rio Claro,Centro,Urbana,F,43,30-44,Fundamental,3959,Aposentado,38,Sim,Não,Sim,QR Code,5,4,2,4,4,3,5,4,4,4,3,3,4,3,Segurança,Emprego,WhatsApp,Melhorar transporte rural.
+351,São Miguel do Norte,São José,Urbana,M,48,45-59,Fundamental,1544,Desempregado,60,Sim,Não,Sim,Totem,3,4,4,4,3,2,5,2,3,2,4,5,3,3,Emprego,Saúde,Lideranças,Aumentar diálogo com comunidades.
+352,Lagoa Nova,Córrego,Urbana,F,48,45-59,Superior,2690,Aposentado,8,Não,Não,Não,Tablet,5,4,4,4,5,4,5,5,4,3,4,4,4,3,Emprego,Saúde,Rádio,Aumentar diálogo com comunidades.
+353,Vale Verde,Boa Vista,Urbana,M,65,60+,Fundamental,3232,Autônomo,4,Sim,Não,Não,Totem,3,4,5,4,2,2,5,2,4,5,4,3,4,3,Segurança,Saúde,Lideranças,Investir em qualificação profissional.
+354,Rio Claro,Centro,Urbana,F,42,30-44,Superior,2452,Autônomo,60,Sim,Não,Não,QR Code,3,4,4,4,5,2,5,4,4,2,5,3,4,3,Saúde,Educação,Lideranças,Melhorar abastecimento de água.
+355,São Miguel do Norte,São José,Rural,F,29,18-29,Fundamental,3527,Aposentado,28,Não,Não,Sim,Totem,3,4,4,1,4,5,2,5,3,3,4,2,3,1,Água,Emprego,Rádio,Melhorar abastecimento de água.
+356,Boa Esperança,Santa Rita,Rural,M,44,30-44,Médio,1559,Agricultura,30,Não,Não,Sim,QR Code,2,4,3,2,4,5,4,2,3,3,4,4,3,2,Água,Emprego,Redes Sociais,Aumentar diálogo com comunidades.
+357,Serra Azul,Barreiro,Urbana,F,75,60+,Superior,2402,Autônomo,37,Não,Não,Não,Totem,4,4,2,4,2,5,5,5,2,5,3,2,2,2,Emprego,Saúde,Rádio,Melhorar abastecimento de água.
+358,Rio Claro,Centro,Urbana,F,42,30-44,Superior,3706,Aposentado,18,Não,Não,Não,Tablet,4,4,5,4,4,4,5,5,2,4,4,2,2,1,Segurança,Emprego,WhatsApp,Melhorar transporte rural.
+359,Lagoa Nova,Córrego,Urbana,F,74,60+,Médio,1724,Formal,21,Sim,Não,Não,Tablet,2,4,2,4,3,5,5,2,4,5,4,3,4,3,Emprego,Saúde,WhatsApp,Investir em qualificação profissional.
+360,Serra Azul,Barreiro,Rural,M,75,60+,Fundamental,2114,Autônomo,26,Sim,Sim,Não,Tablet,5,4,2,3,4,3,3,2,4,5,4,5,4,3,Água,Saúde,WhatsApp,Investir em qualificação profissional.
+361,Serra Azul,Barreiro,Urbana,M,36,30-44,Fundamental,3589,Formal,33,Sim,Não,Não,Tablet,5,4,4,4,4,4,5,4,3,3,5,4,3,3,Segurança,Água,Redes Sociais,Ampliar atendimento de saúde.
+362,Boa Esperança,Santa Rita,Urbana,M,29,18-29,Superior,1954,Autônomo,5,Não,Não,Sim,Tablet,3,4,5,4,3,2,5,2,2,2,4,2,2,3,Saúde,Emprego,WhatsApp,Melhorar abastecimento de água.
+363,Rio Claro,Centro,Urbana,F,40,30-44,Fundamental,2524,Aposentado,22,Não,Não,Não,Totem,2,4,4,4,4,3,5,2,4,3,3,2,4,1,Segurança,Emprego,Redes Sociais,Ampliar atendimento de saúde.
+364,Pedra Branca,Pedreira,Urbana,M,29,18-29,Médio,2572,Aposentado,16,Não,Não,Não,Tablet,2,4,2,4,3,4,5,3,2,3,5,4,2,3,Emprego,Emprego,Lideranças,Melhorar transporte rural.
+365,Serra Azul,Barreiro,Urbana,F,72,60+,Fundamental,2792,Autônomo,33,Sim,Não,Não,Tablet,5,4,5,4,2,4,5,4,4,3,3,4,4,3,Saúde,Saúde,WhatsApp,Melhorar transporte rural.
+366,Santa Aurora,Lagoa,Rural,F,61,60+,Superior,1864,Autônomo,35,Não,Não,Não,Tablet,3,2,4,2,4,4,3,3,3,3,5,4,3,1,Água,Saúde,Rádio,Aumentar diálogo com comunidades.
+367,Vale Verde,Boa Vista,Rural,M,56,45-59,Superior,3487,Agricultura,39,Não,Não,Sim,Tablet,3,3,5,1,3,5,3,4,2,3,4,2,2,2,Água,Saúde,Redes Sociais,Investir em qualificação profissional.
+368,Rio Claro,Centro,Urbana,F,55,45-59,Superior,2312,Autônomo,30,Sim,Não,Não,QR Code,5,4,5,4,4,5,5,4,3,2,3,3,3,3,Saúde,Saúde,Lideranças,Ampliar atendimento de saúde.
+369,Santa Aurora,Lagoa,Rural,F,35,30-44,Superior,3344,Agricultura,3,Sim,Sim,Não,Totem,5,4,5,3,3,5,2,4,4,5,3,4,4,3,Água,Água,Rádio,Ampliar atendimento de saúde.
+370,Vale Verde,Boa Vista,Urbana,F,28,18-29,Médio,1782,Formal,29,Sim,Não,Não,QR Code,5,4,2,4,3,4,5,4,4,3,3,5,4,3,Emprego,Emprego,Redes Sociais,Melhorar abastecimento de água.
+371,Santa Aurora,Lagoa,Urbana,M,70,60+,Superior,3475,Formal,31,Não,Sim,Não,Totem,5,4,2,4,2,3,5,2,5,3,4,5,5,3,Segurança,Saúde,Lideranças,Ampliar atendimento de saúde.
+372,Vale Verde,Boa Vista,Rural,F,70,60+,Fundamental,2401,Aposentado,39,Não,Não,Não,Totem,5,2,2,3,4,5,3,2,4,4,3,2,4,2,Água,Saúde,Rádio,Aumentar diálogo com comunidades.
+373,Vale Verde,Boa Vista,Urbana,M,42,30-44,Médio,3041,Autônomo,2,Não,Não,Não,Tablet,4,4,4,4,4,4,5,3,4,4,3,2,4,3,Segurança,Água,WhatsApp,Aumentar diálogo com comunidades.
+374,Lagoa Nova,Córrego,Urbana,M,44,30-44,Fundamental,2487,Aposentado,11,Não,Não,Sim,Totem,5,4,2,4,5,2,5,2,3,2,5,2,3,1,Segurança,Água,WhatsApp,Melhorar abastecimento de água.
+375,São Miguel do Norte,São José,Rural,M,69,60+,Superior,3174,Desempregado,43,Não,Não,Não,Tablet,3,3,4,2,3,4,4,2,4,4,4,3,4,2,Água,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+376,Pedra Branca,Pedreira,Urbana,F,29,18-29,Médio,1566,Aposentado,9,Não,Não,Não,Tablet,5,4,5,4,5,4,5,2,3,3,4,2,3,2,Segurança,Emprego,WhatsApp,Ampliar atendimento de saúde.
+377,Vale Verde,Boa Vista,Rural,F,24,18-29,Superior,2655,Formal,39,Não,Sim,Não,QR Code,5,4,3,1,2,4,4,3,3,3,4,5,3,2,Água,Emprego,Lideranças,Melhorar transporte rural.
+378,Lagoa Nova,Córrego,Urbana,M,32,30-44,Médio,2432,Agricultura,39,Não,Sim,Não,Tablet,3,4,2,4,3,2,5,3,4,4,4,5,4,1,Segurança,Educação,Redes Sociais,Melhorar abastecimento de água.
+379,São Miguel do Norte,São José,Urbana,F,57,45-59,Médio,2770,Agricultura,21,Sim,Não,Sim,Totem,4,4,3,4,2,3,5,5,3,5,3,3,3,3,Emprego,Saúde,Redes Sociais,Melhorar abastecimento de água.
+380,Santa Aurora,Lagoa,Urbana,M,48,45-59,Médio,3094,Aposentado,40,Não,Não,Sim,QR Code,4,4,5,4,2,4,5,2,3,3,4,3,3,1,Emprego,Saúde,Lideranças,Investir em qualificação profissional.
+381,Boa Esperança,Santa Rita,Rural,F,27,18-29,Médio,2869,Aposentado,43,Não,Não,Sim,Totem,5,3,3,1,3,4,3,2,3,3,3,4,3,1,Água,Emprego,Lideranças,Melhorar abastecimento de água.
+382,Vale Verde,Boa Vista,Urbana,F,68,60+,Médio,1436,Aposentado,59,Não,Não,Sim,Tablet,2,4,5,4,3,3,5,4,2,5,4,2,2,3,Saúde,Saúde,Rádio,Melhorar transporte rural.
+383,Boa Esperança,Santa Rita,Urbana,M,29,18-29,Médio,2570,Formal,49,Sim,Não,Não,Tablet,2,4,5,4,5,5,5,2,3,2,4,3,3,3,Segurança,Emprego,Lideranças,Investir em qualificação profissional.
+384,Serra Azul,Barreiro,Urbana,M,72,60+,Médio,1680,Formal,23,Não,Não,Sim,QR Code,5,4,2,4,4,2,5,5,4,3,5,2,4,2,Emprego,Saúde,WhatsApp,Investir em qualificação profissional.
+385,Rio Claro,Centro,Urbana,M,36,30-44,Médio,3680,Desempregado,19,Não,Sim,Não,QR Code,3,4,3,4,2,4,5,3,5,5,4,3,5,2,Emprego,Emprego,Lideranças,Melhorar transporte rural.
+386,Rio Claro,Centro,Urbana,F,18,18-29,Superior,3861,Formal,14,Não,Não,Não,Tablet,3,4,5,4,4,2,5,2,3,3,3,3,3,2,Saúde,Emprego,Redes Sociais,Melhorar abastecimento de água.
+387,Lagoa Nova,Córrego,Urbana,M,42,30-44,Superior,2702,Desempregado,45,Não,Sim,Não,QR Code,5,4,5,4,4,5,5,5,4,3,4,3,4,1,Segurança,Água,Rádio,Melhorar transporte rural.
+388,Serra Azul,Barreiro,Urbana,M,71,60+,Médio,3585,Aposentado,4,Sim,Não,Não,QR Code,2,4,2,4,4,4,5,5,5,2,5,5,5,3,Saúde,Saúde,Rádio,Aumentar diálogo com comunidades.
+389,Pedra Branca,Pedreira,Rural,F,33,30-44,Médio,3592,Autônomo,34,Não,Não,Sim,Totem,2,2,3,2,3,2,2,2,3,4,4,3,3,2,Água,Educação,WhatsApp,Ampliar atendimento de saúde.
+390,Santa Aurora,Lagoa,Urbana,M,73,60+,Fundamental,3151,Aposentado,33,Sim,Não,Não,Tablet,4,4,2,4,3,3,5,5,4,4,5,4,4,3,Segurança,Saúde,Lideranças,Investir em qualificação profissional.
+391,Lagoa Nova,Córrego,Urbana,M,55,45-59,Superior,2668,Desempregado,8,Sim,Não,Não,QR Code,3,4,3,4,2,3,5,4,3,3,4,4,3,3,Segurança,Saúde,WhatsApp,Melhorar transporte rural.
+392,São Miguel do Norte,São José,Urbana,F,53,45-59,Fundamental,2515,Agricultura,39,Não,Não,Não,Totem,4,4,2,4,3,5,5,5,3,4,3,2,3,3,Segurança,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+393,Serra Azul,Barreiro,Urbana,M,47,45-59,Superior,2249,Aposentado,57,Sim,Sim,Sim,Totem,2,4,3,4,5,2,5,2,4,2,3,5,4,3,Saúde,Saúde,Lideranças,Melhorar transporte rural.
+394,Boa Esperança,Santa Rita,Rural,M,34,30-44,Médio,1402,Agricultura,37,Sim,Não,Não,Tablet,4,4,4,2,3,5,4,2,4,5,5,3,4,3,Água,Educação,Redes Sociais,Ampliar atendimento de saúde.
+395,Vale Verde,Boa Vista,Urbana,F,33,30-44,Fundamental,2275,Autônomo,1,Não,Sim,Sim,QR Code,4,4,2,4,4,5,5,5,5,2,4,5,5,2,Saúde,Emprego,WhatsApp,Investir em qualificação profissional.
+396,Rio Claro,Centro,Urbana,M,35,30-44,Médio,3916,Formal,39,Sim,Sim,Sim,Tablet,2,4,2,4,2,3,5,5,5,3,3,4,5,3,Segurança,Emprego,Rádio,Investir em qualificação profissional.
+397,Vale Verde,Boa Vista,Urbana,F,38,30-44,Médio,2042,Formal,36,Não,Não,Não,Tablet,2,4,3,4,3,3,5,3,2,2,3,2,2,1,Saúde,Emprego,Lideranças,Aumentar diálogo com comunidades.
+398,Santa Aurora,Lagoa,Urbana,F,35,30-44,Fundamental,3372,Desempregado,53,Não,Não,Não,Tablet,3,4,4,4,4,4,5,5,2,2,3,4,2,2,Emprego,Emprego,WhatsApp,Aumentar diálogo com comunidades.
+399,Lagoa Nova,Córrego,Rural,F,32,30-44,Superior,2452,Formal,23,Não,Não,Não,Totem,2,3,2,3,2,5,2,2,2,3,4,4,2,3,Água,Água,Lideranças,Aumentar diálogo com comunidades.
+400,Boa Esperança,Santa Rita,Rural,F,80,60+,Superior,2919,Agricultura,21,Não,Sim,Sim,Tablet,3,3,2,3,3,4,3,2,5,2,3,3,5,2,Água,Saúde,Rádio,Melhorar transporte rural.
+401,Lagoa Nova,Córrego,Urbana,F,35,30-44,Médio,3074,Aposentado,40,Não,Não,Sim,Totem,3,4,3,4,4,5,5,2,2,5,4,4,2,3,Saúde,Emprego,Redes Sociais,Aumentar diálogo com comunidades.
+402,São Miguel do Norte,São José,Rural,F,29,18-29,Médio,2014,Agricultura,26,Não,Sim,Não,Totem,3,2,4,2,4,5,4,5,3,2,5,3,3,2,Água,Emprego,Lideranças,Ampliar atendimento de saúde.
+403,Pedra Branca,Pedreira,Urbana,M,57,45-59,Médio,2829,Formal,21,Não,Não,Não,Totem,5,4,5,4,5,5,5,3,2,5,3,2,2,2,Saúde,Saúde,WhatsApp,Melhorar abastecimento de água.
+404,Pedra Branca,Pedreira,Urbana,F,43,30-44,Médio,3418,Desempregado,36,Não,Não,Não,QR Code,4,4,5,4,2,4,5,2,4,3,3,3,4,1,Saúde,Educação,Redes Sociais,Melhorar abastecimento de água.
+405,Vale Verde,Boa Vista,Rural,M,79,60+,Fundamental,3207,Formal,13,Não,Não,Não,QR Code,2,4,4,3,3,4,2,3,3,3,4,4,3,1,Água,Saúde,Rádio,Ampliar atendimento de saúde.
+406,Pedra Branca,Pedreira,Urbana,M,20,18-29,Médio,3547,Formal,1,Sim,Não,Não,QR Code,5,4,4,4,2,4,5,3,3,3,5,4,3,3,Emprego,Emprego,Redes Sociais,Melhorar abastecimento de água.
+407,São Miguel do Norte,São José,Urbana,M,21,18-29,Médio,3105,Aposentado,16,Sim,Não,Não,Tablet,3,4,5,4,5,5,5,3,5,2,3,3,5,3,Emprego,Emprego,Rádio,Aumentar diálogo com comunidades.
+408,Lagoa Nova,Córrego,Urbana,M,65,60+,Médio,3277,Formal,36,Não,Não,Sim,Totem,4,4,3,4,2,2,5,3,3,4,4,2,3,1,Segurança,Saúde,Lideranças,Ampliar atendimento de saúde.
+409,Pedra Branca,Pedreira,Urbana,M,68,60+,Superior,2412,Desempregado,5,Não,Não,Não,Tablet,4,4,3,4,3,3,5,5,4,5,5,4,4,3,Saúde,Saúde,Rádio,Melhorar transporte rural.
+410,Lagoa Nova,Córrego,Urbana,F,69,60+,Médio,2120,Desempregado,39,Sim,Não,Não,Tablet,5,4,3,4,3,5,5,4,4,3,4,5,4,3,Segurança,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+411,Boa Esperança,Santa Rita,Rural,M,52,45-59,Fundamental,953,Autônomo,5,Sim,Sim,Não,Totem,3,4,4,3,2,5,2,2,5,3,5,4,5,3,Água,Saúde,Lideranças,Ampliar atendimento de saúde.
+412,Boa Esperança,Santa Rita,Rural,F,20,18-29,Médio,2617,Desempregado,11,Não,Não,Sim,Totem,4,3,2,2,3,5,2,2,2,2,3,3,2,1,Água,Emprego,WhatsApp,Melhorar abastecimento de água.
+413,Boa Esperança,Santa Rita,Urbana,M,19,18-29,Médio,1236,Formal,15,Sim,Sim,Não,Totem,5,4,5,4,5,4,5,2,4,2,4,5,4,3,Saúde,Emprego,Lideranças,Aumentar diálogo com comunidades.
+414,Rio Claro,Centro,Urbana,F,24,18-29,Superior,3969,Autônomo,22,Sim,Não,Não,QR Code,2,4,2,4,4,4,5,3,5,4,3,4,5,3,Saúde,Emprego,Rádio,Ampliar atendimento de saúde.
+415,Lagoa Nova,Córrego,Urbana,M,22,18-29,Fundamental,2206,Aposentado,30,Não,Sim,Não,Totem,5,4,4,4,3,3,5,2,4,5,3,4,4,2,Saúde,Emprego,WhatsApp,Melhorar transporte rural.
+416,Rio Claro,Centro,Rural,F,58,45-59,Médio,3926,Aposentado,50,Sim,Não,Não,Totem,5,3,3,3,2,5,4,2,3,4,5,5,3,3,Água,Saúde,Redes Sociais,Melhorar transporte rural.
+417,Lagoa Nova,Córrego,Urbana,F,19,18-29,Médio,3400,Agricultura,19,Não,Não,Não,Tablet,3,4,3,4,3,3,5,2,3,5,3,4,3,3,Saúde,Emprego,WhatsApp,Investir em qualificação profissional.
+418,Boa Esperança,Santa Rita,Rural,F,37,30-44,Fundamental,2273,Autônomo,32,Não,Não,Não,QR Code,2,2,5,3,4,3,4,2,2,2,4,2,2,2,Água,Água,Redes Sociais,Melhorar transporte rural.
+419,Vale Verde,Boa Vista,Urbana,M,28,18-29,Fundamental,3470,Desempregado,35,Não,Não,Não,QR Code,5,4,2,4,4,4,5,2,2,4,5,4,2,2,Saúde,Emprego,Rádio,Ampliar atendimento de saúde.
+420,Boa Esperança,Santa Rita,Rural,F,26,18-29,Fundamental,2920,Formal,54,Sim,Sim,Não,Tablet,2,2,5,2,4,4,4,2,5,5,4,5,5,3,Água,Emprego,Redes Sociais,Melhorar abastecimento de água.
+421,Vale Verde,Boa Vista,Rural,F,77,60+,Superior,2936,Autônomo,55,Não,Não,Não,Tablet,5,2,4,3,5,5,2,2,2,3,4,4,2,3,Água,Saúde,Rádio,Melhorar abastecimento de água.
+422,Santa Aurora,Lagoa,Rural,M,48,45-59,Fundamental,2071,Aposentado,3,Não,Não,Não,Tablet,2,4,4,2,4,5,4,3,2,3,3,3,2,3,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+423,Pedra Branca,Pedreira,Rural,M,64,60+,Médio,1669,Aposentado,12,Não,Não,Não,Totem,3,4,2,2,3,2,2,3,2,4,4,2,2,3,Água,Saúde,Redes Sociais,Melhorar transporte rural.
+424,Rio Claro,Centro,Urbana,F,24,18-29,Superior,3565,Autônomo,9,Não,Não,Sim,Totem,4,4,2,4,4,4,5,3,2,3,3,4,2,3,Segurança,Emprego,WhatsApp,Melhorar abastecimento de água.
+425,Pedra Branca,Pedreira,Urbana,M,66,60+,Médio,1916,Autônomo,6,Não,Não,Não,Totem,3,4,3,4,4,3,5,4,3,4,3,3,3,2,Saúde,Saúde,Rádio,Ampliar atendimento de saúde.
+426,Vale Verde,Boa Vista,Urbana,M,50,45-59,Superior,3499,Desempregado,6,Não,Não,Não,Totem,3,4,5,4,3,5,5,2,2,4,5,3,2,3,Segurança,Saúde,WhatsApp,Melhorar transporte rural.
+427,Lagoa Nova,Córrego,Rural,M,71,60+,Superior,2060,Agricultura,56,Sim,Sim,Não,Totem,4,2,5,1,4,2,3,3,5,3,3,5,5,3,Água,Saúde,Lideranças,Melhorar transporte rural.
+428,Serra Azul,Barreiro,Urbana,M,34,30-44,Médio,1490,Formal,12,Sim,Não,Sim,Totem,4,4,2,4,4,2,5,5,5,3,3,4,5,3,Saúde,Água,Rádio,Ampliar atendimento de saúde.
+429,São Miguel do Norte,São José,Urbana,M,33,30-44,Fundamental,3416,Aposentado,11,Não,Não,Não,Totem,5,4,4,4,2,3,5,3,4,3,4,4,4,3,Emprego,Emprego,Lideranças,Melhorar transporte rural.
+430,Serra Azul,Barreiro,Urbana,M,64,60+,Fundamental,1636,Agricultura,1,Sim,Não,Não,QR Code,4,4,2,4,3,4,5,5,3,2,5,5,3,3,Segurança,Saúde,Redes Sociais,Melhorar abastecimento de água.
+431,Serra Azul,Barreiro,Rural,F,32,30-44,Médio,3257,Agricultura,23,Não,Não,Não,Totem,2,3,2,2,3,5,3,2,3,2,4,2,3,2,Água,Educação,WhatsApp,Melhorar transporte rural.
+432,Vale Verde,Boa Vista,Urbana,M,67,60+,Superior,3367,Agricultura,36,Sim,Sim,Não,Totem,3,4,3,4,4,3,5,4,4,2,4,4,4,3,Emprego,Saúde,Rádio,Aumentar diálogo com comunidades.
+433,Vale Verde,Boa Vista,Urbana,F,42,30-44,Fundamental,2154,Aposentado,7,Sim,Não,Não,Totem,5,4,5,4,2,4,5,3,4,4,3,3,4,3,Emprego,Educação,Redes Sociais,Ampliar atendimento de saúde.
+434,São Miguel do Norte,São José,Rural,M,73,60+,Médio,3241,Aposentado,21,Não,Não,Não,Totem,4,2,2,3,5,5,3,3,3,5,5,2,3,1,Água,Saúde,WhatsApp,Investir em qualificação profissional.
+435,Vale Verde,Boa Vista,Rural,M,63,60+,Superior,2033,Autônomo,2,Sim,Não,Sim,Tablet,3,2,5,1,2,5,2,2,4,2,4,4,4,3,Água,Saúde,WhatsApp,Melhorar transporte rural.
+436,Vale Verde,Boa Vista,Urbana,M,47,45-59,Médio,3291,Formal,49,Não,Sim,Não,Tablet,4,4,4,4,2,4,5,2,3,5,3,5,3,2,Emprego,Saúde,WhatsApp,Investir em qualificação profissional.
+437,Vale Verde,Boa Vista,Rural,F,78,60+,Fundamental,3288,Autônomo,56,Não,Sim,Não,Totem,5,2,5,1,2,5,2,4,3,4,4,4,3,1,Água,Saúde,Lideranças,Aumentar diálogo com comunidades.
+438,Santa Aurora,Lagoa,Urbana,M,39,30-44,Superior,3274,Autônomo,46,Sim,Não,Sim,Tablet,3,4,3,4,5,3,5,5,4,2,3,4,4,3,Segurança,Emprego,Lideranças,Aumentar diálogo com comunidades.
+439,Boa Esperança,Santa Rita,Urbana,M,25,18-29,Médio,2350,Desempregado,60,Não,Não,Sim,QR Code,4,4,3,4,4,4,5,2,2,2,5,4,2,2,Segurança,Emprego,Lideranças,Aumentar diálogo com comunidades.
+440,Vale Verde,Boa Vista,Urbana,M,78,60+,Fundamental,3421,Desempregado,14,Não,Sim,Sim,Totem,4,4,4,4,5,3,5,3,4,2,5,3,4,1,Saúde,Saúde,Lideranças,Investir em qualificação profissional.
+441,Vale Verde,Boa Vista,Rural,F,51,45-59,Superior,2026,Agricultura,32,Sim,Sim,Não,Totem,3,4,2,2,2,5,2,3,5,5,4,5,5,3,Água,Saúde,Rádio,Ampliar atendimento de saúde.
+442,Pedra Branca,Pedreira,Urbana,F,55,45-59,Superior,3234,Agricultura,45,Não,Não,Sim,QR Code,2,4,3,4,4,4,5,2,4,2,4,3,4,3,Emprego,Saúde,Lideranças,Melhorar abastecimento de água.
+443,Boa Esperança,Santa Rita,Urbana,M,71,60+,Médio,966,Aposentado,58,Sim,Sim,Não,Tablet,2,4,5,4,4,4,5,2,5,3,4,5,5,3,Segurança,Saúde,Redes Sociais,Investir em qualificação profissional.
+444,Rio Claro,Centro,Rural,M,25,18-29,Superior,3761,Formal,48,Não,Não,Não,QR Code,4,2,3,1,2,2,2,2,3,2,3,2,3,3,Água,Emprego,Rádio,Melhorar abastecimento de água.
+445,Serra Azul,Barreiro,Rural,M,47,45-59,Superior,2819,Desempregado,17,Não,Não,Não,QR Code,5,4,3,2,5,4,4,4,2,5,3,3,2,1,Água,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+446,Lagoa Nova,Córrego,Urbana,F,76,60+,Médio,2989,Agricultura,7,Não,Não,Não,QR Code,3,4,3,4,3,5,5,5,3,4,4,2,3,2,Segurança,Saúde,WhatsApp,Ampliar atendimento de saúde.
+447,Pedra Branca,Pedreira,Urbana,M,66,60+,Fundamental,2889,Formal,34,Sim,Não,Não,QR Code,5,4,5,4,5,4,5,2,5,3,5,3,5,3,Emprego,Saúde,Redes Sociais,Melhorar transporte rural.
+448,Rio Claro,Centro,Urbana,F,36,30-44,Médio,2803,Autônomo,13,Não,Sim,Não,QR Code,5,4,3,4,5,2,5,3,3,2,3,5,3,1,Emprego,Educação,Rádio,Investir em qualificação profissional.
+449,Rio Claro,Centro,Rural,M,59,45-59,Superior,2613,Desempregado,59,Sim,Não,Não,Tablet,3,3,3,2,3,3,4,2,5,3,4,4,5,3,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+450,Santa Aurora,Lagoa,Urbana,F,23,18-29,Fundamental,1433,Formal,3,Sim,Não,Não,Totem,5,4,3,4,5,4,5,5,4,4,4,3,4,3,Saúde,Emprego,Redes Sociais,Melhorar abastecimento de água.
+451,São Miguel do Norte,São José,Urbana,F,40,30-44,Fundamental,3534,Formal,18,Não,Sim,Não,Totem,5,4,4,4,2,3,5,3,5,2,3,5,5,2,Emprego,Educação,Rádio,Aumentar diálogo com comunidades.
+452,Lagoa Nova,Córrego,Rural,M,41,30-44,Superior,1725,Autônomo,38,Não,Sim,Não,Tablet,5,2,4,1,3,4,4,2,4,3,3,3,4,3,Água,Emprego,Redes Sociais,Investir em qualificação profissional.
+453,Vale Verde,Boa Vista,Rural,F,36,30-44,Fundamental,3282,Agricultura,25,Sim,Não,Não,Tablet,3,3,2,2,5,4,3,3,4,2,4,4,4,3,Água,Educação,Redes Sociais,Investir em qualificação profissional.
+454,Serra Azul,Barreiro,Rural,F,29,18-29,Superior,1957,Desempregado,46,Sim,Não,Não,Totem,4,4,4,1,2,5,2,4,5,3,5,3,5,3,Água,Emprego,WhatsApp,Melhorar abastecimento de água.
+455,São Miguel do Norte,São José,Urbana,F,37,30-44,Médio,2909,Formal,23,Não,Não,Sim,Totem,2,4,2,4,4,4,5,3,4,5,5,3,4,1,Segurança,Água,Lideranças,Melhorar abastecimento de água.
+456,Santa Aurora,Lagoa,Rural,M,34,30-44,Superior,2867,Aposentado,59,Não,Não,Sim,QR Code,4,2,3,3,2,2,3,3,3,5,4,2,3,3,Água,Água,Rádio,Melhorar transporte rural.
+457,Rio Claro,Centro,Urbana,M,67,60+,Médio,3190,Formal,57,Não,Não,Não,Totem,5,4,4,4,2,5,5,4,3,3,4,4,3,2,Emprego,Saúde,WhatsApp,Investir em qualificação profissional.
+458,Vale Verde,Boa Vista,Rural,F,47,45-59,Superior,3054,Autônomo,45,Não,Não,Sim,QR Code,3,4,2,3,3,4,3,2,2,2,4,2,2,3,Água,Saúde,Lideranças,Investir em qualificação profissional.
+459,Serra Azul,Barreiro,Urbana,F,62,60+,Fundamental,1822,Autônomo,37,Não,Não,Não,QR Code,2,4,2,4,5,3,5,3,3,5,5,4,3,3,Saúde,Saúde,WhatsApp,Melhorar abastecimento de água.
+460,Rio Claro,Centro,Urbana,F,73,60+,Médio,4013,Formal,27,Não,Sim,Não,Totem,4,4,2,4,2,4,5,2,3,3,4,4,3,3,Saúde,Saúde,Lideranças,Investir em qualificação profissional.
+461,Serra Azul,Barreiro,Urbana,M,62,60+,Superior,3466,Agricultura,49,Sim,Não,Não,Totem,4,4,4,4,2,5,5,5,4,2,3,5,4,3,Segurança,Saúde,WhatsApp,Investir em qualificação profissional.
+462,Boa Esperança,Santa Rita,Rural,M,35,30-44,Superior,1753,Formal,52,Não,Não,Sim,Tablet,3,4,5,1,3,4,3,2,3,3,4,2,3,2,Água,Água,Redes Sociais,Melhorar transporte rural.
+463,Rio Claro,Centro,Urbana,M,40,30-44,Fundamental,3079,Desempregado,37,Não,Sim,Sim,QR Code,5,4,2,4,5,4,5,2,4,3,5,4,4,3,Saúde,Água,Redes Sociais,Melhorar abastecimento de água.
+464,Lagoa Nova,Córrego,Urbana,F,32,30-44,Superior,2620,Autônomo,30,Sim,Sim,Sim,Tablet,5,4,3,4,4,2,5,5,5,5,3,4,5,3,Saúde,Emprego,WhatsApp,Ampliar atendimento de saúde.
+465,Santa Aurora,Lagoa,Rural,M,23,18-29,Superior,1843,Formal,27,Não,Não,Não,Totem,4,3,3,1,4,4,2,2,3,4,5,2,3,3,Água,Emprego,Rádio,Melhorar transporte rural.
+466,Serra Azul,Barreiro,Urbana,F,54,45-59,Fundamental,1431,Agricultura,10,Não,Não,Não,QR Code,4,4,4,4,2,3,5,3,3,2,3,3,3,1,Segurança,Saúde,Rádio,Melhorar abastecimento de água.
+467,Serra Azul,Barreiro,Rural,F,66,60+,Superior,1720,Agricultura,13,Não,Sim,Não,QR Code,4,3,4,3,4,2,3,3,3,5,5,3,3,3,Água,Saúde,Rádio,Melhorar abastecimento de água.
+468,Santa Aurora,Lagoa,Rural,F,70,60+,Médio,2275,Autônomo,14,Sim,Não,Sim,Totem,4,4,2,3,3,3,3,4,3,2,3,3,3,3,Água,Saúde,Redes Sociais,Investir em qualificação profissional.
+469,Lagoa Nova,Córrego,Urbana,F,20,18-29,Médio,1877,Agricultura,12,Não,Não,Sim,Totem,5,4,5,4,2,5,5,3,2,4,3,3,2,2,Emprego,Emprego,Redes Sociais,Investir em qualificação profissional.
+470,Vale Verde,Boa Vista,Rural,M,34,30-44,Superior,2731,Aposentado,41,Não,Sim,Não,Totem,3,4,3,1,5,5,4,2,5,3,4,5,5,3,Água,Educação,Rádio,Melhorar transporte rural.
+471,São Miguel do Norte,São José,Rural,F,77,60+,Fundamental,1475,Autônomo,42,Não,Sim,Não,QR Code,4,3,5,2,4,4,2,5,3,5,3,5,3,2,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+472,Santa Aurora,Lagoa,Urbana,F,52,45-59,Superior,2435,Agricultura,48,Não,Não,Não,Totem,4,4,4,4,5,3,5,3,4,3,3,3,4,1,Emprego,Saúde,WhatsApp,Melhorar transporte rural.
+473,Boa Esperança,Santa Rita,Urbana,F,49,45-59,Fundamental,2676,Autônomo,39,Não,Não,Não,Totem,5,4,4,4,2,3,5,2,2,2,5,2,2,1,Emprego,Saúde,Rádio,Ampliar atendimento de saúde.
+474,Boa Esperança,Santa Rita,Urbana,F,47,45-59,Superior,1834,Aposentado,49,Sim,Não,Não,QR Code,5,4,2,4,2,5,5,2,4,4,5,4,4,3,Emprego,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+475,São Miguel do Norte,São José,Urbana,M,56,45-59,Fundamental,3186,Autônomo,37,Sim,Não,Sim,Tablet,5,4,2,4,3,2,5,5,5,5,3,3,5,3,Saúde,Saúde,Lideranças,Aumentar diálogo com comunidades.
+476,Vale Verde,Boa Vista,Rural,M,74,60+,Superior,3237,Autônomo,34,Sim,Não,Não,QR Code,2,2,5,3,5,2,2,5,4,2,4,5,4,3,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+477,Boa Esperança,Santa Rita,Rural,M,40,30-44,Superior,2564,Autônomo,36,Não,Sim,Não,Tablet,4,3,5,2,5,4,4,2,5,3,3,5,5,2,Água,Educação,Rádio,Investir em qualificação profissional.
+478,Santa Aurora,Lagoa,Urbana,M,77,60+,Superior,2134,Agricultura,19,Não,Não,Não,Tablet,5,4,4,4,3,2,5,2,2,3,4,4,2,2,Saúde,Saúde,Lideranças,Ampliar atendimento de saúde.
+479,Lagoa Nova,Córrego,Rural,F,71,60+,Fundamental,3470,Agricultura,41,Sim,Sim,Não,QR Code,3,4,4,3,2,4,4,5,5,4,4,4,5,3,Água,Saúde,Redes Sociais,Melhorar transporte rural.
+480,Pedra Branca,Pedreira,Rural,F,30,30-44,Superior,2871,Aposentado,37,Não,Não,Não,Tablet,5,4,3,3,5,4,4,2,3,5,5,4,3,3,Água,Água,Rádio,Aumentar diálogo com comunidades.
+481,São Miguel do Norte,São José,Urbana,F,70,60+,Fundamental,1976,Autônomo,13,Sim,Não,Não,QR Code,3,4,3,4,2,4,5,5,5,3,3,5,5,3,Emprego,Saúde,WhatsApp,Melhorar abastecimento de água.
+482,São Miguel do Norte,São José,Rural,M,57,45-59,Superior,3510,Autônomo,2,Sim,Não,Não,Tablet,4,3,2,3,2,2,3,5,5,5,4,3,5,3,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+483,Boa Esperança,Santa Rita,Urbana,M,20,18-29,Fundamental,2946,Desempregado,30,Não,Não,Não,Totem,3,4,5,4,2,2,5,2,2,5,3,3,2,2,Saúde,Emprego,Rádio,Investir em qualificação profissional.
+484,Pedra Branca,Pedreira,Urbana,F,41,30-44,Médio,2425,Desempregado,5,Não,Sim,Sim,QR Code,3,4,4,4,5,5,5,4,5,2,5,5,5,2,Saúde,Educação,Rádio,Melhorar transporte rural.
+485,Serra Azul,Barreiro,Urbana,F,26,18-29,Superior,1971,Desempregado,58,Não,Não,Sim,QR Code,5,4,4,4,5,4,5,2,3,5,4,3,3,2,Segurança,Emprego,Rádio,Investir em qualificação profissional.
+486,Serra Azul,Barreiro,Rural,F,41,30-44,Fundamental,2671,Formal,27,Sim,Não,Não,QR Code,4,3,4,3,5,4,2,4,4,2,4,3,4,3,Água,Água,Lideranças,Melhorar abastecimento de água.
+487,Boa Esperança,Santa Rita,Rural,M,44,30-44,Fundamental,2599,Aposentado,3,Não,Não,Não,Tablet,2,3,5,1,4,3,2,2,2,5,4,4,2,3,Água,Água,Rádio,Melhorar abastecimento de água.
+488,Santa Aurora,Lagoa,Rural,F,27,18-29,Médio,1790,Formal,11,Sim,Não,Não,Tablet,5,4,4,3,5,3,2,4,4,2,5,4,4,3,Água,Emprego,Lideranças,Investir em qualificação profissional.
+489,Vale Verde,Boa Vista,Urbana,F,49,45-59,Médio,1798,Aposentado,26,Não,Não,Não,QR Code,2,4,4,4,4,2,5,5,4,4,5,4,4,3,Segurança,Saúde,WhatsApp,Ampliar atendimento de saúde.
+490,Vale Verde,Boa Vista,Urbana,M,21,18-29,Médio,3081,Desempregado,49,Não,Não,Não,Totem,4,4,4,4,4,2,5,3,2,2,5,2,2,3,Segurança,Emprego,WhatsApp,Investir em qualificação profissional.
+491,São Miguel do Norte,São José,Rural,F,22,18-29,Superior,3378,Formal,51,Não,Não,Não,Tablet,4,2,4,1,2,4,2,3,3,4,3,2,3,2,Água,Emprego,WhatsApp,Ampliar atendimento de saúde.
+492,São Miguel do Norte,São José,Rural,M,36,30-44,Superior,3165,Formal,9,Não,Não,Não,Totem,3,3,2,3,3,5,3,3,3,4,4,4,3,3,Água,Água,Rádio,Aumentar diálogo com comunidades.
+493,Pedra Branca,Pedreira,Rural,F,66,60+,Médio,2463,Formal,7,Sim,Sim,Não,Tablet,2,3,4,2,4,5,3,4,4,3,3,4,4,3,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+494,Pedra Branca,Pedreira,Rural,F,62,60+,Médio,2361,Aposentado,25,Não,Não,Sim,QR Code,4,4,4,2,4,3,2,3,2,3,5,2,2,3,Água,Saúde,Lideranças,Melhorar transporte rural.
+495,Pedra Branca,Pedreira,Rural,M,41,30-44,Superior,2923,Formal,12,Sim,Não,Não,QR Code,5,3,4,1,4,2,3,5,3,3,3,3,3,3,Água,Educação,Redes Sociais,Aumentar diálogo com comunidades.
+496,Lagoa Nova,Córrego,Rural,M,80,60+,Fundamental,3574,Formal,31,Sim,Não,Não,Tablet,3,2,4,1,5,4,2,5,4,4,5,3,4,3,Água,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+497,Serra Azul,Barreiro,Urbana,M,49,45-59,Fundamental,2758,Formal,19,Sim,Sim,Não,QR Code,5,4,2,4,3,2,5,5,4,2,4,5,4,3,Emprego,Saúde,Lideranças,Aumentar diálogo com comunidades.
+498,Boa Esperança,Santa Rita,Urbana,F,27,18-29,Superior,1253,Agricultura,59,Não,Sim,Sim,Totem,2,4,5,4,3,3,5,2,4,4,4,3,4,1,Emprego,Emprego,Rádio,Investir em qualificação profissional.
+499,Boa Esperança,Santa Rita,Urbana,M,34,30-44,Fundamental,2316,Agricultura,42,Não,Não,Não,QR Code,5,4,5,4,3,2,5,2,3,4,3,3,3,3,Emprego,Educação,Rádio,Investir em qualificação profissional.
+500,Boa Esperança,Santa Rita,Urbana,F,22,18-29,Superior,1029,Formal,51,Sim,Não,Sim,Tablet,5,4,5,4,5,2,5,2,4,4,3,4,4,3,Segurança,Emprego,WhatsApp,Investir em qualificação profissional.
+501,Pedra Branca,Pedreira,Rural,F,50,45-59,Superior,2217,Aposentado,25,Não,Sim,Não,QR Code,4,2,3,3,2,4,2,4,5,5,3,3,5,1,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+502,Vale Verde,Boa Vista,Rural,M,22,18-29,Superior,1936,Autônomo,59,Não,Sim,Não,Totem,5,3,2,2,2,4,3,4,3,2,3,4,3,1,Água,Emprego,WhatsApp,Aumentar diálogo com comunidades.
+503,Santa Aurora,Lagoa,Rural,F,29,18-29,Superior,2991,Aposentado,53,Não,Sim,Não,QR Code,2,2,5,3,2,3,2,4,5,4,5,3,5,3,Água,Emprego,Rádio,Melhorar abastecimento de água.
+504,Boa Esperança,Santa Rita,Rural,F,23,18-29,Médio,1118,Agricultura,37,Não,Sim,Não,Totem,4,4,4,1,3,5,4,2,3,4,3,5,3,3,Água,Emprego,Lideranças,Aumentar diálogo com comunidades.
+505,Vale Verde,Boa Vista,Rural,M,35,30-44,Fundamental,1923,Agricultura,13,Não,Não,Não,QR Code,5,2,5,2,3,4,4,4,3,2,3,2,3,2,Água,Água,Redes Sociais,Melhorar abastecimento de água.
+506,Santa Aurora,Lagoa,Urbana,F,41,30-44,Superior,2048,Autônomo,8,Sim,Não,Não,QR Code,2,4,4,4,5,3,5,5,3,4,4,3,3,3,Saúde,Educação,WhatsApp,Melhorar transporte rural.
+507,Lagoa Nova,Córrego,Urbana,F,63,60+,Médio,2098,Autônomo,33,Não,Sim,Sim,QR Code,4,4,2,4,2,5,5,5,5,4,3,4,5,1,Saúde,Saúde,WhatsApp,Melhorar abastecimento de água.
+508,Rio Claro,Centro,Rural,M,50,45-59,Superior,3711,Desempregado,60,Não,Sim,Não,QR Code,3,3,3,2,4,4,3,4,5,4,5,4,5,2,Água,Saúde,Rádio,Investir em qualificação profissional.
+509,Santa Aurora,Lagoa,Urbana,M,26,18-29,Fundamental,2821,Agricultura,10,Sim,Não,Não,QR Code,5,4,2,4,2,2,5,3,5,4,5,5,5,3,Saúde,Emprego,Rádio,Ampliar atendimento de saúde.
+510,Rio Claro,Centro,Rural,F,38,30-44,Médio,3111,Autônomo,4,Sim,Sim,Sim,QR Code,2,4,5,2,2,2,4,3,5,3,3,5,5,3,Água,Água,WhatsApp,Aumentar diálogo com comunidades.
+511,Pedra Branca,Pedreira,Urbana,F,55,45-59,Fundamental,3580,Aposentado,50,Sim,Sim,Sim,QR Code,3,4,2,4,2,5,5,5,5,5,4,5,5,3,Saúde,Saúde,Lideranças,Melhorar abastecimento de água.
+512,Lagoa Nova,Córrego,Urbana,F,54,45-59,Médio,2394,Aposentado,56,Não,Sim,Sim,QR Code,3,4,5,4,2,3,5,5,3,4,3,4,3,1,Segurança,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+513,São Miguel do Norte,São José,Rural,F,76,60+,Superior,3315,Autônomo,14,Não,Não,Não,QR Code,4,4,3,1,4,4,2,5,3,4,3,3,3,1,Água,Saúde,WhatsApp,Melhorar abastecimento de água.
+514,Pedra Branca,Pedreira,Rural,F,76,60+,Fundamental,3172,Autônomo,53,Sim,Não,Não,Totem,5,3,4,3,4,3,4,3,5,2,3,4,5,3,Água,Saúde,Lideranças,Melhorar abastecimento de água.
+515,Serra Azul,Barreiro,Urbana,F,19,18-29,Médio,3228,Formal,49,Não,Não,Não,Totem,2,4,4,4,3,5,5,3,2,3,4,4,2,1,Segurança,Emprego,Lideranças,Ampliar atendimento de saúde.
+516,Lagoa Nova,Córrego,Rural,M,45,45-59,Superior,2528,Agricultura,14,Não,Sim,Não,Totem,3,4,2,3,3,2,3,4,3,5,4,3,3,1,Água,Saúde,Lideranças,Melhorar abastecimento de água.
+517,Serra Azul,Barreiro,Urbana,F,63,60+,Superior,1897,Agricultura,5,Não,Não,Não,Tablet,2,4,3,4,2,2,5,4,2,2,5,3,2,2,Emprego,Saúde,Rádio,Ampliar atendimento de saúde.
+518,Rio Claro,Centro,Urbana,F,66,60+,Superior,2184,Formal,12,Não,Sim,Não,Tablet,5,4,2,4,5,5,5,3,3,4,4,3,3,1,Saúde,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+519,Serra Azul,Barreiro,Urbana,F,62,60+,Superior,2869,Formal,6,Sim,Não,Não,QR Code,3,4,4,4,4,2,5,2,3,5,4,4,3,3,Segurança,Saúde,Rádio,Melhorar abastecimento de água.
+520,Pedra Branca,Pedreira,Urbana,M,39,30-44,Superior,3522,Desempregado,48,Não,Não,Sim,Tablet,5,4,2,4,5,2,5,5,3,4,4,3,3,1,Segurança,Água,Rádio,Aumentar diálogo com comunidades.
+521,Serra Azul,Barreiro,Rural,F,58,45-59,Superior,3201,Aposentado,6,Não,Não,Não,Tablet,4,3,5,1,3,3,4,2,2,5,4,4,2,3,Água,Saúde,WhatsApp,Melhorar transporte rural.
+522,Rio Claro,Centro,Urbana,F,29,18-29,Médio,2559,Formal,21,Sim,Não,Não,Totem,4,4,3,4,2,3,5,2,5,4,3,5,5,3,Emprego,Emprego,Rádio,Melhorar abastecimento de água.
+523,Pedra Branca,Pedreira,Urbana,F,69,60+,Médio,2678,Autônomo,54,Sim,Não,Sim,Totem,4,4,3,4,2,4,5,3,5,2,5,4,5,3,Saúde,Saúde,Redes Sociais,Investir em qualificação profissional.
+524,Serra Azul,Barreiro,Rural,F,65,60+,Médio,1689,Aposentado,55,Não,Não,Não,Tablet,4,2,3,3,2,3,4,2,2,5,3,3,2,2,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+525,Pedra Branca,Pedreira,Urbana,M,30,30-44,Fundamental,3578,Formal,48,Não,Não,Não,QR Code,5,4,3,4,3,2,5,2,2,2,3,2,2,3,Segurança,Educação,WhatsApp,Aumentar diálogo com comunidades.
+526,Boa Esperança,Santa Rita,Rural,F,76,60+,Fundamental,2962,Formal,2,Não,Não,Não,Tablet,4,2,4,1,4,2,2,2,2,5,4,2,2,1,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+527,Lagoa Nova,Córrego,Rural,M,22,18-29,Fundamental,2012,Autônomo,13,Não,Não,Não,Totem,5,2,4,1,3,3,4,3,4,2,5,4,4,2,Água,Emprego,Lideranças,Aumentar diálogo com comunidades.
+528,Lagoa Nova,Córrego,Rural,F,71,60+,Superior,3377,Aposentado,52,Não,Não,Não,Totem,4,3,2,3,2,5,3,5,3,5,3,3,3,1,Água,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+529,Serra Azul,Barreiro,Urbana,M,75,60+,Superior,3239,Desempregado,38,Não,Não,Não,Tablet,2,4,2,4,5,5,5,5,3,2,3,4,3,1,Saúde,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+530,Santa Aurora,Lagoa,Rural,F,75,60+,Fundamental,1519,Aposentado,2,Não,Não,Não,Tablet,4,2,3,1,2,2,3,4,3,4,4,4,3,2,Água,Saúde,Lideranças,Melhorar transporte rural.
+531,São Miguel do Norte,São José,Urbana,F,27,18-29,Superior,3299,Aposentado,15,Não,Não,Sim,Totem,2,4,4,4,4,4,5,4,3,2,5,2,3,1,Emprego,Emprego,Redes Sociais,Aumentar diálogo com comunidades.
+532,São Miguel do Norte,São José,Urbana,M,19,18-29,Superior,3339,Desempregado,20,Não,Não,Não,Tablet,4,4,5,4,3,4,5,4,2,4,3,4,2,3,Emprego,Emprego,Lideranças,Aumentar diálogo com comunidades.
+533,Serra Azul,Barreiro,Urbana,F,37,30-44,Superior,3315,Agricultura,44,Não,Sim,Sim,Totem,5,4,4,4,5,5,5,2,3,5,3,5,3,3,Saúde,Educação,WhatsApp,Melhorar transporte rural.
+534,Rio Claro,Centro,Urbana,M,68,60+,Superior,3348,Agricultura,46,Não,Sim,Sim,QR Code,5,4,4,4,3,3,5,3,3,2,5,3,3,3,Segurança,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+535,Boa Esperança,Santa Rita,Urbana,F,33,30-44,Médio,1906,Formal,23,Sim,Não,Sim,QR Code,4,4,4,4,3,5,5,2,5,4,5,3,5,3,Segurança,Educação,WhatsApp,Melhorar transporte rural.
+536,Pedra Branca,Pedreira,Rural,M,34,30-44,Médio,2751,Aposentado,30,Não,Sim,Sim,Tablet,5,4,3,3,5,4,4,3,5,4,3,5,5,1,Água,Emprego,Rádio,Investir em qualificação profissional.
+537,Pedra Branca,Pedreira,Urbana,F,69,60+,Superior,1899,Desempregado,21,Não,Não,Não,Tablet,2,4,4,4,3,2,5,2,3,3,3,2,3,3,Segurança,Saúde,Redes Sociais,Investir em qualificação profissional.
+538,Serra Azul,Barreiro,Urbana,F,54,45-59,Superior,1667,Aposentado,11,Sim,Não,Não,Totem,3,4,5,4,3,2,5,3,3,4,5,3,3,3,Emprego,Saúde,Lideranças,Investir em qualificação profissional.
+539,Serra Azul,Barreiro,Urbana,F,38,30-44,Médio,2248,Autônomo,31,Sim,Não,Não,Tablet,3,4,5,4,5,5,5,3,3,3,3,4,3,3,Saúde,Emprego,Lideranças,Melhorar transporte rural.
+540,Vale Verde,Boa Vista,Rural,F,27,18-29,Superior,2066,Agricultura,37,Não,Não,Não,QR Code,4,4,4,1,3,3,3,2,3,3,4,2,3,2,Água,Emprego,WhatsApp,Aumentar diálogo com comunidades.
+541,São Miguel do Norte,São José,Urbana,M,52,45-59,Fundamental,2027,Desempregado,36,Não,Não,Não,QR Code,3,4,4,4,5,4,5,3,2,2,3,4,2,3,Saúde,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+542,Boa Esperança,Santa Rita,Urbana,M,55,45-59,Fundamental,1325,Desempregado,29,Sim,Não,Não,Tablet,3,4,2,4,5,4,5,2,3,2,4,5,3,3,Saúde,Saúde,Lideranças,Ampliar atendimento de saúde.
+543,Santa Aurora,Lagoa,Rural,M,47,45-59,Fundamental,2102,Desempregado,58,Sim,Sim,Não,QR Code,5,4,5,1,4,3,2,2,5,4,5,5,5,3,Água,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+544,Santa Aurora,Lagoa,Rural,M,45,45-59,Superior,1682,Agricultura,51,Não,Sim,Não,Totem,3,2,5,2,2,3,3,4,4,5,5,3,4,2,Água,Saúde,Redes Sociais,Melhorar abastecimento de água.
+545,São Miguel do Norte,São José,Urbana,F,79,60+,Fundamental,2138,Agricultura,42,Não,Não,Não,Tablet,4,4,5,4,2,2,5,5,3,5,5,2,3,3,Emprego,Saúde,Lideranças,Aumentar diálogo com comunidades.
+546,Serra Azul,Barreiro,Urbana,M,32,30-44,Superior,3187,Agricultura,49,Sim,Sim,Sim,Totem,3,4,5,4,4,5,5,2,5,3,4,5,5,3,Saúde,Educação,Redes Sociais,Melhorar abastecimento de água.
+547,Rio Claro,Centro,Rural,F,29,18-29,Médio,2497,Desempregado,30,Não,Não,Não,QR Code,3,2,3,1,3,3,2,5,2,4,5,3,2,1,Água,Emprego,Rádio,Melhorar abastecimento de água.
+548,São Miguel do Norte,São José,Urbana,M,48,45-59,Superior,1513,Desempregado,13,Sim,Não,Não,QR Code,2,4,4,4,5,4,5,3,3,5,4,3,3,3,Segurança,Saúde,WhatsApp,Ampliar atendimento de saúde.
+549,Lagoa Nova,Córrego,Rural,F,55,45-59,Fundamental,3555,Aposentado,2,Não,Não,Não,QR Code,2,3,3,1,3,5,4,3,4,3,4,2,4,3,Água,Saúde,Redes Sociais,Melhorar transporte rural.
+550,Vale Verde,Boa Vista,Rural,F,72,60+,Superior,1741,Agricultura,9,Sim,Não,Não,Totem,2,4,2,2,4,5,2,2,4,5,4,4,4,3,Água,Saúde,WhatsApp,Investir em qualificação profissional.
+551,Vale Verde,Boa Vista,Rural,M,47,45-59,Fundamental,2312,Aposentado,19,Não,Não,Não,Totem,4,4,2,3,3,5,3,4,2,3,4,2,2,2,Água,Saúde,Lideranças,Ampliar atendimento de saúde.
+552,Rio Claro,Centro,Rural,F,38,30-44,Superior,2088,Formal,18,Não,Não,Sim,QR Code,3,4,4,1,4,4,2,3,3,2,4,2,3,2,Água,Água,Rádio,Melhorar abastecimento de água.
+553,Santa Aurora,Lagoa,Rural,F,43,30-44,Superior,2874,Desempregado,54,Não,Não,Não,Totem,5,4,3,2,5,4,2,5,4,2,5,3,4,2,Água,Emprego,Rádio,Melhorar abastecimento de água.
+554,Vale Verde,Boa Vista,Rural,M,50,45-59,Fundamental,2463,Autônomo,60,Não,Não,Sim,Tablet,2,3,2,1,4,5,4,3,3,3,3,4,3,1,Água,Saúde,Rádio,Melhorar abastecimento de água.
+555,Serra Azul,Barreiro,Rural,F,38,30-44,Superior,1814,Autônomo,58,Não,Não,Sim,Totem,4,2,5,3,3,4,2,3,2,4,4,2,2,2,Água,Emprego,Rádio,Investir em qualificação profissional.
+556,Pedra Branca,Pedreira,Urbana,M,59,45-59,Médio,2050,Desempregado,7,Não,Não,Não,QR Code,4,4,3,4,5,3,5,5,3,5,5,4,3,2,Saúde,Saúde,Rádio,Melhorar transporte rural.
+557,Rio Claro,Centro,Rural,M,55,45-59,Superior,3363,Agricultura,22,Não,Sim,Não,QR Code,4,2,4,2,3,2,4,3,4,4,4,5,4,1,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+558,Santa Aurora,Lagoa,Urbana,M,46,45-59,Fundamental,3094,Formal,38,Sim,Não,Sim,Tablet,4,4,2,4,5,2,5,2,4,3,3,5,4,3,Emprego,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+559,Vale Verde,Boa Vista,Rural,M,66,60+,Médio,3301,Agricultura,4,Não,Não,Não,QR Code,2,2,2,2,4,4,4,3,3,3,3,2,3,3,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+560,São Miguel do Norte,São José,Rural,M,64,60+,Fundamental,2105,Aposentado,23,Sim,Sim,Não,QR Code,5,4,5,3,5,5,2,3,4,2,3,4,4,3,Água,Saúde,Redes Sociais,Ampliar atendimento de saúde.
+561,São Miguel do Norte,São José,Rural,F,71,60+,Médio,2865,Agricultura,54,Não,Não,Não,Totem,3,4,4,3,2,3,2,2,4,5,4,2,4,1,Água,Saúde,Rádio,Melhorar transporte rural.
+562,São Miguel do Norte,São José,Urbana,F,33,30-44,Superior,1926,Formal,44,Não,Não,Não,Totem,3,4,3,4,4,2,5,3,4,3,3,3,4,2,Saúde,Emprego,Rádio,Melhorar abastecimento de água.
+563,Vale Verde,Boa Vista,Rural,F,75,60+,Fundamental,2327,Agricultura,17,Sim,Não,Sim,Tablet,4,3,4,2,4,2,3,3,4,5,4,5,4,3,Água,Saúde,Lideranças,Aumentar diálogo com comunidades.
+564,Lagoa Nova,Córrego,Urbana,M,72,60+,Fundamental,2850,Autônomo,10,Não,Sim,Sim,Tablet,4,4,3,4,2,5,5,2,5,2,4,3,5,1,Segurança,Saúde,Redes Sociais,Melhorar transporte rural.
+565,Santa Aurora,Lagoa,Urbana,F,22,18-29,Médio,1420,Aposentado,30,Não,Sim,Não,QR Code,5,4,3,4,2,3,5,5,4,4,5,5,4,1,Emprego,Emprego,Rádio,Aumentar diálogo com comunidades.
+566,Santa Aurora,Lagoa,Urbana,F,23,18-29,Fundamental,1979,Agricultura,1,Não,Não,Não,Tablet,2,4,4,4,5,2,5,2,3,4,4,4,3,2,Emprego,Emprego,Rádio,Ampliar atendimento de saúde.
+567,Boa Esperança,Santa Rita,Rural,F,54,45-59,Fundamental,1336,Formal,53,Não,Não,Não,QR Code,5,4,5,3,4,5,4,2,3,5,3,2,3,3,Água,Saúde,Redes Sociais,Aumentar diálogo com comunidades.
+568,São Miguel do Norte,São José,Rural,M,70,60+,Superior,3505,Autônomo,45,Não,Não,Sim,Totem,5,4,2,1,3,5,3,4,3,4,3,2,3,1,Água,Saúde,Rádio,Investir em qualificação profissional.
+569,Santa Aurora,Lagoa,Urbana,F,40,30-44,Fundamental,3146,Agricultura,17,Não,Não,Não,QR Code,4,4,2,4,5,3,5,3,3,2,4,3,3,3,Segurança,Água,WhatsApp,Aumentar diálogo com comunidades.
+570,Serra Azul,Barreiro,Rural,M,22,18-29,Médio,2625,Desempregado,18,Sim,Não,Não,Tablet,5,3,3,2,2,2,4,4,5,5,3,4,5,3,Água,Emprego,Rádio,Ampliar atendimento de saúde.
+571,Pedra Branca,Pedreira,Rural,F,77,60+,Superior,2278,Desempregado,56,Não,Sim,Sim,QR Code,2,2,3,2,2,2,3,3,3,5,5,3,3,1,Água,Saúde,Lideranças,Melhorar abastecimento de água.
+572,Vale Verde,Boa Vista,Urbana,M,46,45-59,Fundamental,1969,Desempregado,5,Não,Não,Não,QR Code,3,4,5,4,5,5,5,4,4,2,4,2,4,1,Segurança,Saúde,WhatsApp,Melhorar transporte rural.
+573,São Miguel do Norte,São José,Urbana,M,44,30-44,Superior,1633,Agricultura,40,Sim,Não,Não,Tablet,3,4,2,4,4,4,5,2,5,3,3,5,5,3,Emprego,Emprego,Rádio,Ampliar atendimento de saúde.
+574,São Miguel do Norte,São José,Rural,F,21,18-29,Superior,2334,Desempregado,41,Não,Não,Não,QR Code,4,4,5,1,4,3,3,5,3,4,3,3,3,1,Água,Emprego,WhatsApp,Investir em qualificação profissional.
+575,São Miguel do Norte,São José,Urbana,M,78,60+,Médio,3090,Agricultura,45,Sim,Não,Não,Totem,5,4,2,4,3,2,5,5,5,2,3,4,5,3,Saúde,Saúde,Lideranças,Ampliar atendimento de saúde.
+576,Lagoa Nova,Córrego,Urbana,M,79,60+,Superior,2794,Aposentado,46,Não,Sim,Não,Tablet,4,4,2,4,5,5,5,4,5,2,5,5,5,1,Saúde,Saúde,Lideranças,Ampliar atendimento de saúde.
+577,Vale Verde,Boa Vista,Rural,M,59,45-59,Médio,1936,Agricultura,30,Não,Não,Não,Tablet,2,4,3,2,5,4,4,4,4,4,5,2,4,1,Água,Saúde,WhatsApp,Investir em qualificação profissional.
+578,Vale Verde,Boa Vista,Urbana,M,69,60+,Médio,2155,Aposentado,60,Sim,Sim,Não,Tablet,4,4,2,4,2,4,5,3,5,3,3,5,5,3,Segurança,Saúde,Redes Sociais,Melhorar transporte rural.
+579,São Miguel do Norte,São José,Rural,F,44,30-44,Fundamental,1776,Aposentado,42,Não,Sim,Não,QR Code,5,2,5,2,2,2,2,2,4,5,4,3,4,1,Água,Água,Rádio,Aumentar diálogo com comunidades.
+580,Rio Claro,Centro,Urbana,F,72,60+,Fundamental,3994,Autônomo,20,Não,Não,Não,QR Code,5,4,2,4,4,3,5,4,2,4,5,4,2,2,Saúde,Saúde,Rádio,Melhorar abastecimento de água.
+581,Serra Azul,Barreiro,Urbana,M,24,18-29,Superior,1712,Autônomo,33,Não,Não,Não,QR Code,3,4,2,4,5,4,5,3,4,5,4,4,4,2,Emprego,Emprego,Redes Sociais,Aumentar diálogo com comunidades.
+582,Rio Claro,Centro,Rural,M,71,60+,Fundamental,3087,Desempregado,22,Sim,Não,Sim,Totem,3,4,5,2,3,4,3,3,3,2,5,3,3,3,Água,Saúde,WhatsApp,Ampliar atendimento de saúde.
+583,Rio Claro,Centro,Urbana,M,61,60+,Fundamental,2026,Aposentado,38,Sim,Não,Sim,QR Code,5,4,5,4,2,5,5,4,5,5,4,4,5,3,Saúde,Saúde,Lideranças,Melhorar transporte rural.
+584,Boa Esperança,Santa Rita,Rural,M,78,60+,Superior,1129,Aposentado,51,Não,Não,Não,Totem,4,2,3,1,3,2,4,2,3,5,4,2,3,2,Água,Saúde,Redes Sociais,Investir em qualificação profissional.
+585,Rio Claro,Centro,Urbana,F,29,18-29,Médio,2911,Formal,22,Não,Não,Não,Totem,5,4,3,4,5,3,5,4,2,4,3,3,2,1,Emprego,Emprego,Rádio,Ampliar atendimento de saúde.
+586,Pedra Branca,Pedreira,Urbana,M,54,45-59,Médio,2602,Agricultura,50,Não,Sim,Não,Totem,4,4,3,4,5,3,5,2,4,3,5,3,4,2,Emprego,Saúde,WhatsApp,Melhorar abastecimento de água.
+587,São Miguel do Norte,São José,Rural,F,67,60+,Médio,3128,Aposentado,3,Sim,Não,Não,Totem,5,4,4,3,5,5,3,5,3,5,3,3,3,3,Água,Saúde,Lideranças,Ampliar atendimento de saúde.
+588,Rio Claro,Centro,Urbana,M,60,60+,Superior,2093,Autônomo,16,Não,Não,Não,Totem,2,4,3,4,3,2,5,4,4,2,5,3,4,3,Segurança,Saúde,Lideranças,Investir em qualificação profissional.
+589,Pedra Branca,Pedreira,Urbana,F,26,18-29,Superior,2259,Desempregado,20,Não,Sim,Não,QR Code,5,4,5,4,4,3,5,2,4,2,5,5,4,3,Saúde,Emprego,Lideranças,Investir em qualificação profissional.
+590,São Miguel do Norte,São José,Rural,M,62,60+,Superior,2503,Desempregado,29,Sim,Não,Sim,Totem,2,2,2,2,5,4,2,5,4,3,5,4,4,3,Água,Saúde,Rádio,Melhorar transporte rural.
+591,Lagoa Nova,Córrego,Urbana,M,57,45-59,Médio,3352,Desempregado,14,Não,Não,Não,Totem,4,4,2,4,3,2,5,5,4,4,4,4,4,3,Emprego,Saúde,Rádio,Melhorar abastecimento de água.
+592,Santa Aurora,Lagoa,Rural,M,31,30-44,Superior,2019,Formal,56,Não,Não,Sim,QR Code,5,3,3,2,3,3,3,2,2,4,5,2,2,3,Água,Educação,Rádio,Ampliar atendimento de saúde.
+593,Boa Esperança,Santa Rita,Rural,M,73,60+,Fundamental,3093,Desempregado,14,Não,Sim,Não,QR Code,5,3,5,1,2,4,3,2,5,4,4,3,5,2,Água,Saúde,Redes Sociais,Melhorar transporte rural.
+594,Santa Aurora,Lagoa,Rural,F,55,45-59,Médio,2364,Autônomo,14,Não,Não,Sim,QR Code,2,3,3,2,2,3,4,3,3,3,3,4,3,2,Água,Saúde,Lideranças,Melhorar abastecimento de água.
+595,Serra Azul,Barreiro,Urbana,F,40,30-44,Superior,3596,Aposentado,6,Não,Sim,Sim,Tablet,2,4,4,4,2,5,5,2,4,3,5,3,4,2,Emprego,Educação,Lideranças,Ampliar atendimento de saúde.
+596,Lagoa Nova,Córrego,Rural,M,69,60+,Fundamental,1897,Autônomo,56,Sim,Não,Não,QR Code,4,2,2,2,4,3,3,3,5,3,3,3,5,3,Água,Saúde,WhatsApp,Aumentar diálogo com comunidades.
+597,Lagoa Nova,Córrego,Rural,M,79,60+,Superior,2037,Aposentado,35,Não,Não,Não,Tablet,4,4,2,3,4,2,3,3,3,5,4,2,3,2,Água,Saúde,Rádio,Melhorar abastecimento de água.
+598,Boa Esperança,Santa Rita,Rural,F,63,60+,Médio,2067,Agricultura,31,Não,Sim,Não,Tablet,4,4,4,3,3,5,2,2,3,4,5,4,3,2,Água,Saúde,Rádio,Melhorar abastecimento de água.
+599,Lagoa Nova,Córrego,Rural,F,56,45-59,Médio,1480,Desempregado,1,Sim,Não,Sim,QR Code,4,2,3,2,3,3,3,5,5,3,4,4,5,3,Água,Saúde,Lideranças,Melhorar transporte rural.
+600,Santa Aurora,Lagoa,Urbana,M,21,18-29,Médio,2586,Agricultura,25,Não,Não,Não,Tablet,3,4,4,4,4,2,5,4,3,3,4,4,3,1,Saúde,Emprego,Rádio,Aumentar diálogo com comunidades.
