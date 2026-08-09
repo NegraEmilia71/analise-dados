@@ -142,7 +142,7 @@ Ele contém:
 
 **Joyce**  
 Candidata à vaga de **Analista de Inteligência em Pesquisa Sênior**  
-[LinkedIn](https://www.linkedin.com/in/joyce-cerqueira/) | [GitHub](https://github.com/NegraEmilia71)
+[LinkedIn](https://www.linkedin.com/in/joyce-emília-datascientist) | [GitHub](https://github.com/NegraEmilia71)
 
 ---
 
