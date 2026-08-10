@@ -91,6 +91,11 @@ pip install pandas matplotlib seaborn wordcloud numpy python-docx
    ```bash
    git clone https://github.com/NegraEmilia71/analise-dados.git
    cd analise-dados
+
+## 🚀 Dashboard Online
+
+Acesse o dashboard interativo em:
+[https://negraemilia71-analise-dados-dashboard-qeefi3.streamlit.app/)
 ---
 
 ## 📊 Principais Insights do Relatório
