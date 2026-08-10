@@ -3,6 +3,9 @@
 ## Estrutura do Projeto
 
 ```
+analise-dados/
+├── dashboard.py              # Dashboard/ painel
+├── requirements.txt
 ├── Codigo/
 │   ├── EDA.ipynb
 │   └── organizar_entrega.py
