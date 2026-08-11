@@ -8,9 +8,7 @@ import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
 from wordcloud import WordCloud
-from pandas.io.formats.style import Styler
 import numpy as np
-from collections import Counter
 import re
 
 # Configuração da página
@@ -43,15 +41,18 @@ def normalizar_colunas_indicadores(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def criar_faixa_etaria(df: pd.DataFrame) -> pd.DataFrame:
+    """Cria a coluna Faixa_Etaria a partir da coluna Idade se não existir."""
+    df = df.copy()
+    if 'Faixa_Etaria' not in df.columns and 'Idade' in df.columns:
+        bins = [0, 17, 29, 44, 59, 150]
+        labels = ['Menor de 18 anos', 'De 18 a 29 anos', 'De 30 a 44 anos', 'De 45 a 59 anos', 'Acima de 60 anos']
+        df['Faixa_Etaria'] = pd.cut(df['Idade'], bins=bins, labels=labels, right=False)
+    return df
+
 @st.cache_data
 def carregar_dados():
-    """Carrega os dados do survey e indicadores.
-
-    Fallback somente quando os CSVs de origem estiverem realmente ausentes no
-    diretório de trabalho. Se os arquivos existirem, a visualização fica presa ao
-    conteúdo do CSV, mesmo que a tabela venha vazia por uma causa operacional
-    transitória, para não mascarar dados válidos com dados de exemplo.
-    """
+    """Carrega os dados do survey e indicadores."""
     caminhos_esperados = [
         "Base/Base_Survey.csv",
         "Base/entrevistas.csv",
@@ -69,6 +70,7 @@ def carregar_dados():
 
     try:
         df_survey = pd.read_csv("Base/Base_Survey.csv", encoding='utf-8-sig')
+        df_survey = criar_faixa_etaria(df_survey)
         df_entrevistas = pd.read_csv("Base/entrevistas.csv", encoding='utf-8-sig')
         df_mobilizacao = pd.read_csv("Base/mobilizacao.csv", encoding='utf-8-sig')
         df_indicadores = pd.read_csv("Base/indicadores.csv", encoding='utf-8-sig')
@@ -81,7 +83,6 @@ def carregar_dados():
 @st.cache_data
 def carregar_dados_exemplo():
     """Dados de exemplo para demonstração"""
-    # Dados do survey (600 respondentes)
     np.random.seed(42)
     municipios = ['Rio Claro', 'Pedra Branca', 'Boa Esperança', 'Lagoa Nova', 
                   'Santa Aurora', 'São Miguel do Norte', 'Vale Verde', 'Serra Azul']
@@ -228,8 +229,17 @@ def criar_heatmap_municipios(df):
     
     heatmap_data = df.groupby('Municipio')[existentes].mean()
     
+    if heatmap_data.empty:
+        return None
+    
+    if len(heatmap_data) < 2:
+        return None
+    
+    if heatmap_data.isna().all().all():
+        return None
+    
     fig, ax = plt.subplots(figsize=(12, 6))
-    sns.heatmap(heatmap_data, annot=True, cmap='YlGnBu', center=3, fmt='.2f')
+    sns.heatmap(heatmap_data, annot=True, cmap='RdYlGn', center=3, fmt='.2f', ax=ax)
     ax.set_title('Mapa de Calor - Indicadores por Município', fontsize=14)
     plt.tight_layout()
     return fig
@@ -238,7 +248,6 @@ def criar_heatmap_municipios(df):
 # 3. INTERFACE DO DASHBOARD
 # ================================================================
 
-# Título
 st.title("📊 Dashboard dos Resultados Encontrados")
 st.markdown("### Diagnóstico Socioambiental")
 st.markdown("---")
@@ -249,14 +258,11 @@ df_survey, df_entrevistas, df_mobilizacao, df_indicadores = carregar_dados()
 # Sidebar - Filtros
 st.sidebar.header("🔍 Filtros")
 
-# Filtro de município
 municipios = ['Todos'] + sorted(df_survey['Municipio'].unique().tolist())
 municipio_selecionado = st.sidebar.selectbox("Município", municipios)
 
-# Filtro de área
 area_selecionada = st.sidebar.selectbox("Área", ['Todas', 'Urbana', 'Rural'])
 
-# Filtro de gênero
 genero_selecionado = st.sidebar.selectbox("Gênero", ['Todos', 'Masculino', 'Feminino'])
 
 # Aplicar filtros
@@ -270,6 +276,14 @@ if area_selecionada != 'Todas':
 
 if genero_selecionado != 'Todos':
     df_filtrado = df_filtrado[df_filtrado['Sexo'] == genero_selecionado]
+
+# ========== VERIFICAÇÃO DE DADOS ==========
+if df_filtrado.empty:
+    st.sidebar.markdown("---")
+    st.sidebar.warning("⚠️ Nenhum dado encontrado para os filtros selecionados.")
+    st.warning("⚠️ Nenhum dado encontrado para os filtros selecionados. Ajuste os filtros para visualizar os dados.")
+    st.stop()
+# ==========================================
 
 st.sidebar.markdown("---")
 st.sidebar.markdown(f"**Total de respondentes:** {len(df_filtrado)}")
@@ -323,27 +337,70 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("👤 Distribuição por Sexo")
-    fig_sexo, ax = plt.subplots(figsize=(6, 6))
-    sexo_counts = df_filtrado['Sexo'].value_counts()
-    sexo_counts.index = ['Masculino' if s == 'M' else 'Feminino' for s in sexo_counts.index]
-    sexo_counts.plot(kind='pie', autopct='%1.1f%%', colors=["#CB254B", "#18E07C"], ax=ax)
-    ax.set_ylabel('')
-    ax.set_title('')
-    plt.tight_layout()
-    st.pyplot(fig_sexo)
+    
+    sexo_counts = df_filtrado['Sexo'].dropna().value_counts()
+    
+    if sexo_counts.empty:
+        st.warning("⚠️ Nenhum dado de gênero disponível para os filtros selecionados.")
+    elif len(sexo_counts) >= 2:
+        fig_sexo, ax = plt.subplots(figsize=(6, 6))
+        sexo_counts.plot(kind='pie', autopct='%1.1f%%', colors=['#2E86AB', '#F18F01'], ax=ax)
+        ax.set_ylabel('')
+        ax.set_title('')
+        plt.tight_layout()
+        st.pyplot(fig_sexo)
+    else:
+        genero_unico = sexo_counts.index[0]
+        st.info(f"ℹ️ Todos os respondentes filtrados são do gênero **{genero_unico}**.")
+        
+        fig, ax = plt.subplots(figsize=(4, 3))
+        valor = int(sexo_counts.iloc[0])
+        ax.bar([genero_unico], [valor], color='#2E86AB')
+        ax.set_title('Distribuição por Sexo', fontsize=12)
+        ax.set_ylabel('Quantidade')
+        ax.set_xlabel('Gênero')
+        ax.text(0, valor + 0.5, str(valor), ha='center', va='bottom', fontsize=10)
+        plt.tight_layout()
+        st.pyplot(fig)
 
 with col2:
     st.subheader("📊 Distribuição por Faixa Etária")
-    fig_idade, ax = plt.subplots(figsize=(6, 4))
-    df_filtrado['Faixa_Etaria'].value_counts().sort_index().plot(
-        kind='bar', color="#D58814", ax=ax
-    )
-    ax.set_xlabel('Faixa Etária')
-    ax.set_ylabel('Nº de Respondentes')
-    ax.set_title('')
-    plt.xticks(rotation=45)
-    plt.tight_layout()
-    st.pyplot(fig_idade)
+    
+    if 'Faixa_Etaria' in df_filtrado.columns:
+        # Remover nulos e contar
+        faixa_counts = df_filtrado['Faixa_Etaria'].dropna().value_counts()
+        
+        if faixa_counts.empty:
+            st.warning("⚠️ Nenhum dado de faixa etária disponível para os filtros selecionados.")
+        else:
+            # Ordem cronológica
+            ordem_faixas = ['18-29', '30-44', '45-59', '60+']
+            
+            # Verificar se os valores existem e reindexar
+            faixa_counts = faixa_counts.reindex([f for f in ordem_faixas if f in faixa_counts.index])
+            
+            if faixa_counts.empty:
+                st.warning("⚠️ Nenhum dado válido de faixa etária disponível.")
+            else:
+                fig_idade, ax = plt.subplots(figsize=(6, 4))
+                
+                cores_padrao = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4']
+                num_barras = len(faixa_counts)
+                cores_usar = cores_padrao[:num_barras] if num_barras > 0 else ['#2E86AB']
+                
+                faixa_counts.plot(kind='bar', color=cores_usar, ax=ax)
+                ax.set_xlabel('Faixa Etária')
+                ax.set_ylabel('Nº de Respondentes')
+                ax.set_title('')
+                ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha='right')
+                
+                for i, v in enumerate(faixa_counts):
+                    ax.text(i, v + 0.5, str(int(v)), ha='center', va='bottom', fontsize=10)
+                
+                plt.tight_layout()
+                st.pyplot(fig_idade)
+    else:
+        st.warning("⚠️ Coluna 'Faixa_Etaria' não encontrada nos dados.")
 
 st.markdown("---")
 
@@ -357,21 +414,20 @@ with col1:
     if fig_indicadores:
         st.pyplot(fig_indicadores)
     else:
-        st.info("Dados insuficientes para gerar o gráfico de indicadores.")
+        st.info("ℹ️ Dados insuficientes para gerar o gráfico de indicadores. Tente ajustar os filtros.")
 
 with col2:
     fig_heatmap = criar_heatmap_municipios(df_filtrado)
     if fig_heatmap:
         st.pyplot(fig_heatmap)
     else:
-        st.info("Dados insuficientes para gerar o mapa de calor.")
+        st.info("ℹ️ Dados insuficientes para gerar o mapa de calor. Selecione mais municípios ou ajuste os filtros.")
 
 st.markdown("---")
 
 # Row 3: Preocupações e Sugestões
 st.subheader("💬 Principais Preocupações")
 
-# Usar Plotly para um gráfico mais interativo
 if 'Principal_Preocupacao' in df_filtrado.columns:
     preocupacoes = df_filtrado['Principal_Preocupacao'].value_counts().reset_index()
     preocupacoes.columns = ['Preocupação', 'Frequência']
@@ -395,7 +451,6 @@ st.subheader("📍 Análise por Município")
 col1, col2 = st.columns(2)
 
 with col1:
-    # Distribuição de respondentes por município
     municipio_counts = df_filtrado['Municipio'].value_counts().reset_index()
     municipio_counts.columns = ['Municipio', 'Respondentes']
     
@@ -410,7 +465,6 @@ with col1:
     st.plotly_chart(fig, use_container_width=True)
 
 with col2:
-    # QV média por município
     if 'QV' in df_filtrado.columns:
         qv_por_municipio = df_filtrado.groupby('Municipio')['QV'].mean().reset_index()
         qv_por_municipio.columns = ['Municipio', 'QV_Média']
@@ -460,7 +514,6 @@ st.markdown("---")
 # Row 6: Indicadores Secundários
 st.subheader("📊 Indicadores Secundários por Município")
 
-# Verificar se o DataFrame está vazio
 if df_indicadores.empty or df_indicadores.isna().all().all():
     st.warning("⚠️ Nenhum dado de indicadores secundários encontrado no arquivo CSV.")
     st.info("📌 Usando dados de exemplo para demonstração:")
@@ -492,7 +545,6 @@ if df_indicadores.empty or df_indicadores.isna().all().all():
     st.caption("ℹ️ Estes são dados ilustrativos. Substitua pelo arquivo 'Base/indicadores.csv' com os dados reais.")
 
 else:
-    # Verificar se as colunas esperadas existem
     colunas_esperadas = [
         'Municipio',
         '% Populacao Rural',
@@ -556,3 +608,15 @@ with st.expander("📘 O que significa a Cobertura APS? Clique aqui para saber m
     """)
 
 st.markdown("---")
+
+# Footer
+st.markdown(
+    """
+    <div style="text-align: center; color: #888; padding: 20px;">
+        <p>
+        Dashboard gerado automaticamente por <strong>Python + Streamlit</strong><br>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
