@@ -85,6 +85,31 @@ pip install pandas matplotlib seaborn wordcloud numpy python-docx
 | `gerar_relatorio_insights.py` | Lê a `Base_Survey.csv`, o `Dicionario_Variaveis.csv` e os CSVs gerados, produzindo gráficos e o relatório completo. |
 | `organizar_entrega.py` | Organiza automaticamente a estrutura final de pastas para entrega. |
 
+## Como executar o dashboard localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/NegraEmilia71/analise-dados.git
+   cd analise-dados
+   ```
+
+2. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Execute:
+
+```bash
+streamlit run dashboard.py
+```
+
+## 🚀 Dashboard Online
+
+Acesse o dashboard interativo em:
+[https://analise-dados-xxxxx.streamlit.app](https://analise-dados-xxxxx.streamlit.app)
+
 ---
 
 ## 📊 Principais Insights do Relatório
